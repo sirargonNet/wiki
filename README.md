@@ -1,121 +1,63 @@
 <div align="center">
 
-# 🏗️ scaffold
+# 📖 sirargon.net Wiki
 
-**The kirchDev baseline — everything a new repo should ship with on day one, nothing more**
+**The multilingual player handbook for sirargon.net — content, translations and releases in one place**
 
 </div>
 
 ---
 
 ```bash
-gh repo create my-new-repo --template TitusKirch/scaffold
+pnpm install
+pnpm check
 ```
 
-That's it. Click **Use this template** (or use `gh`), edit a handful of placeholders, and the meta layer — lint, format, commit hooks, CI, CodeQL, Dependabot, release-please — is already wired up.
+Edit Markdown in `docs/`. The website lives in the private `mc-network` monorepo at `apps/wiki`; this repository only owns content and its quality tooling.
 
-## ✨ What's in the box
+## ✨ Features
 
-- **🟢 Node + pnpm pinned** — `.nvmrc` (Node 24), `pnpm-workspace.yaml` (pnpm 11 with sane defaults), `package.json` with `packageManager`.
-- **🧹 Lint & format via oxc** — `.oxlintrc.json`, `.oxfmtrc.json`, single `pnpm check` gate.
-- **🔷 TypeScript, no build step** — meta scripts and tool configs are `.ts`, run straight off Node 24's native type stripping; `tsconfig.json` + `pnpm typecheck`.
-- **🪝 Commit hooks** — Husky + `lint-staged` + `commitlint` enforcing Conventional Commits.
-- **🤖 Dependency PRs** — Dependabot (npm weekly, actions monthly) + `taze.config.ts` for interactive upgrades.
-- **🔁 release-please** — full workflow + config + manifest so the new repo can publish from its first commit.
-- **🛡️ GitHub workflows as calls** — six stubs pointing at central bodies in [`kirchDev/workflows`](https://github.com/kirchDev/workflows): CI, CodeQL, release-please, the promotion PR and the two queue workflows. 151 lines of trigger instead of 727 of copied pipeline, and a central fix arrives by Dependabot bump.
-- **📋 Issue / PR templates** — bug report, feature request, question (`.yml` forms) + PR checklist.
-- **📄 Standard meta** — `LICENSE`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`.
-- **🤖 Agent-ready** — `CLAUDE.md` + `AGENTS.md` (kept in sync), `.tituskirch-skills.json`, baseline `.claude/settings.json` permissions, `pnpm skills:update` wiring.
-
-The actual project code can be anything — PHP, Go, Rust, Vue, plain shell. `scaffold` only owns the meta layer that sits on top.
+- First steps, game modes, friends, parties, clans, voice chat and your account.
+- German originals and a complete English translation shared by both English regions.
+- Git tags preserve each published wiki edition; `main` supplies the upcoming edition.
+- No undocumented gameplay promises: [SOURCES.md](SOURCES.md) maps topics to their evidence.
 
 ## 🚀 Setup
 
-After clicking **Use this template**:
+Use the Node and pnpm versions declared in `.nvmrc` and `package.json`. Installation activates Husky. `pnpm check` checks formatting, lint, TypeScript and policy parity.
 
-1. Clone your new repo.
-2. Replace the placeholders listed in [Customising the template](#-customising-the-template).
-3. Reset release-please as described in [Resetting release-please](#-resetting-release-please) (only if you want to start at `v0.0.0`).
-4. `pnpm install` — Husky activates the hooks via the `prepare` script.
-5. Add your project code and ship the first commit:
-
-   ```bash
-   git commit -m "chore: initial commit from scaffold"
-   ```
-
-## 🤖 AI & skills
-
-Every repo from this template is agent-ready on day one:
-
-- **`CLAUDE.md` + `AGENTS.md`** — one set of guidance for Claude Code and vendor-neutral agent tools (Codex, OpenCode, Cursor, Copilot). Kept **byte-identical** — edit one, edit the other.
-- **`.claude/settings.json`** — baseline permissions: read-only git and the `pnpm` scripts are allowed; destructive git (`push`, `reset --hard`, `clean -f`, …) is denied.
-- **`.tituskirch-skills.json`** — configures the [TitusKirch skills](https://github.com/TitusKirch/skills) (commit, PR, issue, release, docs) per repo.
-
-Install the skill bundle, then keep project-scoped skills fresh:
+To preview **uncommitted** content, run the wiki app from a sibling `mc-network` checkout. Copy `apps/wiki/.env.example` to `apps/wiki/.env` there and point its content setting at this repository's absolute checkout path. Then:
 
 ```bash
-pnpm dlx skills add TitusKirch/skills   # add the bundle — npx / yarn dlx / bunx work too
-pnpm skills:update                       # refresh project-scoped skills
+pnpm --filter @mc-network/wiki dev
 ```
 
-## 🧰 Customising the template
+Open <http://localhost:3003>. Local sourcing needs neither a token nor a Git fetch and shows the working tree as upcoming `main`. It does not fabricate historical releases. The app's `.env.example` owns the configuration keys.
 
-Every file below references `TitusKirch/scaffold`, the maintainer's name, or the maintainer's email. Search-and-replace these to your repo's identity before the first push.
+## 🌍 Content and languages
 
-| File                                  | Replace                                                                          |
-| :------------------------------------ | :------------------------------------------------------------------------------- |
-| `package.json`                        | `name`, `description`, `homepage`, `bugs.url`, `repository.url`, `author`        |
-| `README.md`                           | Project title, tagline, hook snippet, every `TitusKirch/scaffold` link           |
-| `LICENSE`                             | Copyright year + holder                                                          |
-| `CODE_OF_CONDUCT.md`                  | Enforcement contact email                                                        |
-| `CONTRIBUTING.md`                     | Every `TitusKirch/scaffold` link, the development setup section                  |
-| `SECURITY.md`                         | Advisory URL, contact email, scope wording                                       |
-| `.github/ISSUE_TEMPLATE/*.yml`        | Generic as shipped. `config.yml` links questions/ideas/possible-bugs to the Discord forum — private repos without a forum drop that block; optionally add stack-specific version fields to `bug_report.yml` |
-| `.github/pull_request_template.md`    | Example commit message in the title hint                                         |
-| `release-please-config.json`          | `packages["."]["package-name"]`                                                  |
-| `CLAUDE.md` + `AGENTS.md`             | **Delete both** and regenerate with `/init` in Claude Code — scaffold-specific, keep byte-identical |
+German (`de-DE`) lives directly in `docs/`; English lives at the same paths in `docs/en/`. Keep numeric prefixes and slugs identical, translating `title`, `description` and prose. Every page carries `title`, `description` and a Lucide `icon` in YAML frontmatter. The renderer supplies the page heading, so omit a duplicate body H1.
 
-> [!TIP]
-> A quick `grep -rn "TitusKirch/scaffold" .` catches every reference in one sweep.
+The consuming duxt source explicitly lists `de-DE`, `en-GB` and `en-US`. Its default locale is `de-DE`; both English source entries point at `docs/en`, so they share a full translation without a missing-translation banner. The interface still uses the selected English region. Links use absolute **content** paths such as `/guides/account`; duxt adds locale and version prefixes.
 
-> [!IMPORTANT]
-> **Private repo?** Three defaults are public-only. Delete `.github/workflows/codeql.yml` (CodeQL needs GitHub Advanced Security — free only on public repos), swap the MIT `LICENSE` + README footer for a proprietary notice with `package.json` `"license": "UNLICENSED"`, and note that the workflow bodies live in a **public** repository — a private repo can still call them, but the reverse is not true.
-
-## 🔁 Resetting release-please
-
-`scaffold` ships with an initial manifest pinned at `0.0.0`. For most cases you can leave it alone — release-please will simply propose a first release PR after your first conventional commit on `main`. If you want a truly clean slate:
-
-1. **Manifest** — make sure `.release-please-manifest.json` is `{ ".": "0.0.0" }` (the default).
-2. **Changelog** — delete `CHANGELOG.md` if your fresh repo somehow inherited one.
-3. **Config** — update `release-please-config.json` → `packages["."]["package-name"]` to your repo name.
-4. **Workflow permissions** — in **Settings → Actions → General → Workflow permissions**, enable **Read and write permissions** so release-please can open its PR.
-5. **Tags & releases (optional)** — if you copied the repo with history, drop old tags:
-
-   ```bash
-   git tag -l | xargs -r git tag -d
-   ```
-
-   …and clear any stale entries on the GitHub **Releases** tab.
-
-6. **First commit** — push a Conventional Commit on `main` (`feat: …`, `fix: …`). release-please opens the initial release PR; merge it and your first tagged release ships.
-
-## 💡 Why "scaffold" and not "template-\*"
-
-Single word, brandable, language-neutral. Future stack-specific templates can sit next to it as `scaffold-laravel`, `scaffold-nuxt`, etc.
+Write short, direct sentences and address the player as “du” in German. Verify facts in the monorepo before adding them. Never name another Minecraft network or server. Mark unknown material clearly as **In Arbeit / Work in progress**; the rules page is deliberately such a placeholder.
 
 ## 🤝 Contributing
 
-PRs welcome. Conventional Commits required (enforced via commitlint). Husky runs the project's linters/formatters on `git commit`.
-
-> [!TIP]
-> Run `pnpm check:fix` before pushing — CI will catch what husky missed.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
+Keep German and English changes together. Run `pnpm check`, then preview both languages in the consuming app; its build validates content collections and internal links. Follow [CONTRIBUTING.md](CONTRIBUTING.md). This is a private repository.
 
 ## 🛣️ Versioning
 
-[Semantic Versioning](https://semver.org/) via [release-please](https://github.com/googleapis/release-please) — see [CHANGELOG.md](CHANGELOG.md).
+Wiki versions describe **documentation editions**, not Minecraft client versions. The manifest starts at `0.0.0`; no release or tag is created by this initial setup.
+
+1. Merge reviewed Conventional Commits through `dev` into `main`. Use `feat:` for a new wiki capability/topic and `fix:` for a correction; docs-only commits may not trigger a release. Promote with a merge commit so release-please can see the individual commits.
+2. The existing release-please workflow opens the release PR. Review its changelog and version, then merge that PR.
+3. release-please publishes a GitHub release and a `vX.Y.Z` Git tag. Never move a published tag; correct content in a new release.
+4. Rebuild/redeploy `apps/wiki` to discover the new tags. duxt reads all release tags, selects the newest as the default and retains older editions. `main` is labelled upcoming.
+
+> [!IMPORTANT]
+> The first remote app build with release discovery needs at least one released tag containing `docs/`. Before that, use the local source. The private repository also needs build-time read credentials, and the existing release workflow needs its configured CI secret and write permissions. No credentials belong in Markdown.
 
 ## 📄 License
 
-[MIT](LICENSE) © [Titus Kirch](https://github.com/TitusKirch/) / [IT-Dienstleistungen Titus Kirch](https://kirch.dev)
+Proprietary. All rights reserved. Access to this private repository does not grant permission to redistribute its contents.

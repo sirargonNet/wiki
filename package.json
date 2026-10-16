@@ -1,33 +1,24 @@
 {
   "$schema": "https://www.schemastore.org/package.json",
-  "name": "scaffold",
-  "version": "0.5.0",
-  "description": "Language-agnostic baseline template for new kirchDev repositories.",
+  "name": "sirargon-wiki",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Multilingual, versioned player wiki content for sirargon.net.",
   "keywords": [
-    "commitlint",
-    "conventional-commits",
-    "dependabot",
-    "github-template",
-    "husky",
-    "kirchdev",
-    "nodejs",
-    "oxfmt",
-    "oxlint",
-    "pnpm",
-    "release-please",
-    "scaffold",
-    "template",
-    "typescript"
+    "documentation",
+    "minecraft",
+    "sirargon",
+    "wiki"
   ],
-  "homepage": "https://github.com/TitusKirch/scaffold#readme",
+  "homepage": "https://github.com/sirargonNet/wiki#readme",
   "bugs": {
-    "url": "https://github.com/TitusKirch/scaffold/issues"
+    "url": "https://github.com/sirargonNet/wiki/issues"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "author": "Titus Kirch <titus.kirch@kirch.dev>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TitusKirch/scaffold.git"
+    "url": "git+https://github.com/sirargonNet/wiki.git"
   },
   "type": "module",
   "scripts": {

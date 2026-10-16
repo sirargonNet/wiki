@@ -48,8 +48,11 @@
     }
   },
   "docs": {
-    "preset": "package",
-    "render": "duxt"
+    "preset": "app",
+    "render": "duxt",
+    "language": "de-DE",
+    "locales": ["en"],
+    "instructions": "Short player-facing prose; address German readers as du. Verify every gameplay fact in mc-network and update SOURCES.md. Unknown rules stay explicitly marked as work in progress. Never name another Minecraft network or server."
   },
   "work": {
     "tracker": "github",
