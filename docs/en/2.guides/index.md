@@ -9,7 +9,7 @@ This applies in every game mode.
 ## Your account
 
 - [Account](/guides/account): profile, levels, currencies, streak and links
-- [Settings](/guides/settings): chat, requests, privacy, lobby and language
+- [Settings](/guides/settings): chat, requests, privacy, lobby, network and language
 
 ## Playing together
 
