@@ -4,7 +4,7 @@ description: 'Which mods are forbidden.'
 icon: lucide:puzzle
 ---
 
-You may use the mods in the official modpack [Sirargons Mod-Mische](https://modrinth.com/modpack/sirargons-mod-mische) everywhere. The [rules](/reference/rules) apply as well.
+You may use the mods in the official modpack [Sirargons Mod-Mische](https://sirargon.net/modpack) everywhere. The [rules](/reference/rules) apply as well.
 
 ## Forbidden everywhere
 
