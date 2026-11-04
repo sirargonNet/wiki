@@ -9,7 +9,7 @@ Das gilt in allen Spielmodi.
 ## Dein Account
 
 - [Account](/guides/account): Profil, Level, Währungen, Streak und Verknüpfungen
-- [Einstellungen](/guides/settings): Chat, Anfragen, Privatsphäre, Lobby und Sprache
+- [Einstellungen](/guides/settings): Chat, Anfragen, Privatsphäre, Lobby, Netzwerk und Sprache
 
 ## Zusammen spielen
 
