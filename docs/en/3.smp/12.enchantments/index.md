@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Enchantments'
 description: 'Additional enchantments on the SMP and where to find them, by realm.'
 icon: lucide:sparkles

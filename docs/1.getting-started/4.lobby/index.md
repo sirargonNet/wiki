@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Lobby'
 description: 'Dein Startpunkt im Netzwerk.'
 icon: lucide:house
