@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'FAQ'
 description: 'Kurze Antworten auf häufige Fragen.'
 icon: lucide:circle-help

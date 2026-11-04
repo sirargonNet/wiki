@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests, Belohnungen und Abliefern.'
 icon: lucide:scroll-text

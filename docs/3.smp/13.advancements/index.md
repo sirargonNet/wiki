@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Advancements'
 description: 'Zusätzliche Advancements im SMP, nach Realm.'
 icon: lucide:trophy

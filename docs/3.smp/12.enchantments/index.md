@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Verzauberungen'
 description: 'Zusätzliche Verzauberungen im SMP und wo du sie findest, nach Realm.'
 icon: lucide:sparkles

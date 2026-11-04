@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Mods'
 description: 'Welche Mods verboten sind.'
 icon: lucide:puzzle

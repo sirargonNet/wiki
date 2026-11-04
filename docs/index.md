@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'sirargon.net Wiki'
 description: 'Dein Einstieg ins Netzwerk und Hilfe direkt fürs Spiel.'
 icon: lucide:book-open-text
