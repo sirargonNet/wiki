@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Skills'
 description: 'Skill points, commands, skill tree and mana.'
 icon: lucide:sparkle

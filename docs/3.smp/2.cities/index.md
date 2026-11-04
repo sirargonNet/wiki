@@ -1,4 +1,5 @@
 ---
+verified: 0.20.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und wachsen.'
 icon: lucide:castle

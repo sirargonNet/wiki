@@ -1,10 +1,11 @@
 ---
+verified: 0.20.0
 title: 'Mods'
 description: 'Welche Mods verboten sind.'
 icon: lucide:puzzle
 ---
 
-Die Mods im offiziellen Modpack [Sirargons Mod-Mische](https://modrinth.com/modpack/sirargons-mod-mische) darfst du überall nutzen. Es gelten außerdem die [Regeln](/reference/rules).
+Die Mods im offiziellen Modpack [Sirargons Mod-Mische](https://sirargon.net/modpack) darfst du überall nutzen. Es gelten außerdem die [Regeln](/reference/rules).
 
 ## Überall verboten
 
