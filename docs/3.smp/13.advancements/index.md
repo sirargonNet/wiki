@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Advancements'
 description: 'Zusätzliche Advancements im SMP, nach Realm.'
 icon: lucide:trophy
@@ -20,6 +20,8 @@ Erreicht jemand im SMP ein Advancement, steht es im Chat. Schreib dann innerhalb
 - Gibt es keine XP, sagt dir der Chat privat, warum.
 
 Stirbt jemand und die Todesnachricht ist öffentlich, zollst du innerhalb von 60 Sekunden mit **f** oder **o7** Respekt. Dafür gibt es 1 Netzwerk-XP. Auch hier gelten Tageslimits.
+
+Die Meldung steht in einer Chatzeile mit Stern und dem Namen in Rangfarbe. Beim Drüberfahren siehst du die Beschreibung. Klick auf **gz**, um genau zu diesem Advancement zu gratulieren. Ein selbst geschriebenes `gz` gilt dem neuesten offenen Erfolg.
 
 ## Nicht erreichbar
 

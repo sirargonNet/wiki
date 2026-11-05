@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Cities'
 description: 'Build, manage and grow together.'
 icon: lucide:castle

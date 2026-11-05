@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Meilensteine'
 description: 'Einmalige Ziele, die dir Silber bringen, nach Realm.'
 icon: lucide:flag

@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Quests'
 description: 'Daily and weekly quests, rewards and delivering.'
 icon: lucide:scroll-text
@@ -42,14 +42,14 @@ In kill quests, a mob counts for the player who dealt it the most damage. On a t
 
 | Quest  |         Easy |       Medium |          Hard |
 | :----- | -----------: | -----------: | ------------: |
-| daily  |   300 Silver |   700 Silver |  1,500 Silver |
+| daily  | 1,000 Silver | 2,000 Silver |  3,000 Silver |
 | weekly | 3,000 Silver | 6,000 Silver | 12,000 Silver |
 
 Quests in the Nether pay 25% more:
 
 | Nether quest |         Easy |       Medium |          Hard |
 | :----------- | -----------: | -----------: | ------------: |
-| daily        |   375 Silver |   875 Silver |  1,875 Silver |
+| daily        | 1,250 Silver | 2,500 Silver |  3,750 Silver |
 | weekly       | 3,750 Silver | 7,500 Silver | 15,000 Silver |
 
 ## Delivering
@@ -59,6 +59,12 @@ Some quests ask you to turn in items, for example bread or iron ingots.
 1. Open `/quests`.
 2. Click **Select to turn in** on the quest.
 3. Click matching items in your inventory. They are used up.
+
+## World Quest
+
+There is also a shared **World Quest**. Open `/quests`. The **World Quest** area sits directly below your personal quests. Everyone helps by donating raw materials. See the [instructions and rewards](/smp/quests/world-quest).
+
+New daily quests use the rewards above from 0.21.0. Quests already drawn keep their existing terms. The change takes effect at the next daily draw or a later scheduled publication. Check your quest menu for your current rewards.
 
 ## Commands
 

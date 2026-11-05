@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
@@ -42,14 +42,14 @@ Bei Kill-Quests zählt ein Mob für den Spieler, der ihm den meisten Schaden gem
 
 | Quest       |       Leicht |       Mittel |        Schwer |
 | :---------- | -----------: | -----------: | ------------: |
-| täglich     |   300 Silber |   700 Silber |  1.500 Silber |
+| täglich     | 1.000 Silber | 2.000 Silber |  3.000 Silber |
 | wöchentlich | 3.000 Silber | 6.000 Silber | 12.000 Silber |
 
 Quests im Nether bringen 25 % mehr:
 
 | Nether-Quest |       Leicht |       Mittel |        Schwer |
 | :----------- | -----------: | -----------: | ------------: |
-| täglich      |   375 Silber |   875 Silber |  1.875 Silber |
+| täglich      | 1.250 Silber | 2.500 Silber |  3.750 Silber |
 | wöchentlich  | 3.750 Silber | 7.500 Silber | 15.000 Silber |
 
 ## Abliefern
@@ -59,6 +59,12 @@ Bei manchen Quests lieferst du Items ab, zum Beispiel Brot oder Eisenbarren.
 1. Öffne `/quests`.
 2. Klick bei der Quest auf **Zum Abliefern auswählen**.
 3. Klick passende Items in deinem Inventar an. Sie werden verbraucht.
+
+## World Quest
+
+Zusätzlich gibt es eine gemeinsame **World Quest**. Öffne `/quests`. Unter deinen persönlichen Quests steht direkt der Bereich **World Quest**. Alle helfen mit Rohstoffen. Die [Anleitung und Belohnungen](/smp/quests/world-quest) erklären die Abgabe.
+
+Neue Tagesquests bringen seit 0.21.0 die oben genannten Belohnungen. Bereits gezogene Quests behalten ihre Werte. Die Umstellung gilt ab der nächsten täglichen Ziehung oder einer später geplanten Freigabe. Im Zweifel gilt dein Quest-Menü.
 
 ## Befehle
 

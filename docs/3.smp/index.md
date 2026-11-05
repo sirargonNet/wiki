@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'SMP'
 description: 'Survival mit Camps, Städten, Handel, Quests und Skills.'
 icon: lucide:trees

@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'FAQ'
 description: 'Short answers to frequent questions.'
 icon: lucide:circle-help

@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Advancements'
 description: 'Additional advancements on the SMP, by realm.'
 icon: lucide:trophy
@@ -20,6 +20,8 @@ When someone reaches an advancement on the SMP, it shows in chat. Then write **g
 - If there is no XP, the chat tells you privately why.
 
 If someone dies and the death message is public, pay respects with **f** or **o7** within 60 seconds. That gives 1 network XP. Daily limits apply here too.
+
+The announcement uses one chat line with a star and the name in the player’s rank colour. Hover to read its description. Click **gz** to congratulate that exact advancement. Typing `gz` yourself refers to the newest open success.
 
 ## Not obtainable
 
