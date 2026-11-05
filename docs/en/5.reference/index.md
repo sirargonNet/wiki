@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Rules & mods'
 description: 'What applies on sirargon.net and which mods are allowed.'
 icon: lucide:scroll-text

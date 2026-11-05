@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Account & community'
 description: 'Your account, your friends and how you play together.'
 icon: lucide:users

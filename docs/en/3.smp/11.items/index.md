@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Items'
 description: 'Additional items and building mechanics on the SMP, by realm.'
 icon: lucide:package

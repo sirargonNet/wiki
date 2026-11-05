@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Milestones'
 description: 'One-time goals that pay silver, by realm.'
 icon: lucide:flag

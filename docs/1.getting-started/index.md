@@ -1,5 +1,5 @@
 ---
-verified: 0.20.0
+verified: 0.21.0
 title: 'Einstieg'
 description: 'Verbinde dich, sieh dich in der Lobby um und hol dir Hilfe.'
 icon: lucide:compass
