@@ -1,5 +1,5 @@
 ---
-verified: 0.24.0
+verified: 0.25.0
 title: 'Cities'
 description: 'Build, manage and rise through eight tiers together.'
 icon: lucide:castle
@@ -98,7 +98,9 @@ If you are stuck on someone else's land, `/unstuck` helps:
 
 - This only works on someone else's land, not on your own camp, plot or city land and not in the wilderness.
 - Only in Survival mode and not in combat.
+- Not on a mount and not in bed.
 - You can only free yourself once every ten minutes.
+- If it does not work, the message tells you why. For example, the game is still loading the territories or your inventory is busy for a moment.
 
 ## Commands
 

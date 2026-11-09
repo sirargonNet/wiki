@@ -1,5 +1,5 @@
 ---
-verified: 0.24.0
+verified: 0.25.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen.'
 icon: lucide:castle
@@ -98,7 +98,9 @@ Steckst du auf fremdem Land fest, hilft dir `/unstuck`:
 
 - Das geht nur auf fremdem Land, nicht auf deinem eigenen Camp, Plot oder Stadtgebiet und nicht in der Wildnis.
 - Nur im Überlebensmodus und nicht im Kampf.
+- Nicht auf einem Reittier und nicht im Bett.
 - Du kannst dich nur alle zehn Minuten befreien.
+- Klappt es nicht, nennt dir die Meldung den Grund. Zum Beispiel lädt das Spiel gerade die Gebiete oder dein Inventar ist kurz beschäftigt.
 
 ## Befehle
 
