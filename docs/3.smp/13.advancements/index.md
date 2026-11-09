@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Advancements'
 description: 'Zusätzliche Advancements im SMP, nach Realm.'
 icon: lucide:trophy
+categories: ['SMP']
 ---
 
 Im SMP gibt es neben den Vanilla-Advancements weitere Advancements. Fast alle bekommst du ganz normal im Überlebensmodus. Die zusätzlichen [Items](/smp/items) und [Verzauberungen](/smp/enchantments) haben eigene Seiten.
@@ -37,4 +38,7 @@ Villager handeln im SMP nicht, siehe [Villager](/smp/villagers). Deshalb bekomms
 
 ::callout{type="info" title="Kommt nach dem Release"}
 Die Advancements im End ergänzen wir nach dem Release.
+::
+
+::navbox{category="SMP"}
 ::

@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Advancements'
 description: 'Additional advancements on the SMP, by realm.'
 icon: lucide:trophy
+categories: ['SMP']
 ---
 
 Besides the vanilla advancements, the SMP has more advancements. You get almost all of them the normal way in survival. The additional [items](/smp/items) and [enchantments](/smp/enchantments) have their own pages.
@@ -37,4 +38,7 @@ Villagers do not trade on the SMP, see [Villagers](/smp/villagers). That is why 
 
 ::callout{type="info" title="Coming after release"}
 We add the End advancements after release.
+::
+
+::navbox{category="SMP"}
 ::

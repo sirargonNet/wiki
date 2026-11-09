@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Lobby'
 description: 'Your starting point on the network.'
 icon: lucide:house
+categories: ['Getting started']
 ---
 
 You land in the lobby after joining. From here you choose your game mode, meet friends and collect your streak rewards. There are several lobbies. The Nether star in your hotbar switches between them.
@@ -31,4 +32,7 @@ With a rank you can fly in the lobby: Prime, Elite, Legend, VIP or Media. Type `
 - `/fly`: turn flight on or off, rank only
 
 ::page-cards
+::
+
+::navbox{category="Getting started"}
 ::

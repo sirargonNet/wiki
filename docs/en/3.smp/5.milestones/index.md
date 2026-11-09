@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Milestones'
 description: 'One-time goals that pay silver, by realm.'
 icon: lucide:flag
+categories: ['SMP']
 ---
 
 `/milestones` shows one-time milestones. Each one pays silver once. Choose the realm at the top; its milestones are listed below. Reached milestones are darker.
@@ -13,3 +14,6 @@ icon: lucide:flag
 ## Commands
 
 - `/milestones`: milestones
+
+::navbox{category="SMP"}
+::

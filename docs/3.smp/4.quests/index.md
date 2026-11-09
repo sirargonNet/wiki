@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
+categories: ['SMP']
 ---
 
 `/quests` zeigt deine täglichen und wöchentlichen Quests. Links stehen die Tagesquests, rechts die Wochenquests. Jedes [Realm](/smp/realms) hat eine eigene Reihe. Die Farbe der Felder zeigt das Realm: grün die Oberwelt, rot der Nether.
@@ -69,3 +70,6 @@ Neue Tagesquests bringen seit 0.21.0 die oben genannten Belohnungen. Bereits gez
 ## Befehle
 
 - `/quests`: Quests
+
+::navbox{category="SMP"}
+::

@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Lobby'
 description: 'Dein Startpunkt im Netzwerk.'
 icon: lucide:house
+categories: ['Einstieg']
 ---
 
 In der Lobby landest du nach dem Beitritt. Von hier wählst du deinen Spielmodus, triffst Freunde und holst deine Streak-Belohnungen ab. Es gibt mehrere Lobbys. Mit dem Netherstern in deiner Hotbar wechselst du zwischen ihnen.
@@ -31,4 +32,7 @@ Mit einem Rang kannst du in der Lobby fliegen: Prime, Elite, Legend, VIP oder Me
 - `/fly`: Flugmodus an oder aus, nur mit Rang
 
 ::page-cards
+::
+
+::navbox{category="Einstieg"}
 ::
