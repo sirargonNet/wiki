@@ -96,8 +96,11 @@ jobs:
           diff <(cd docs && find . -path ./en -prune -o -name '*.md' -print | sort) \
             <(cd docs/en && find . -name '*.md' | sort)
 
+      # Writes mcn/apps/wiki/.generated/freshness.json, which the Pack step mounts.
       - name: Wiki gameplay freshness
-        run: node mcn/tools/cli/wiki-freshness.ts --content "$GITHUB_WORKSPACE/wiki"
+        run: |
+          node mcn/tools/cli/wiki-freshness.ts \
+            --repo "$GITHUB_WORKSPACE/mcn" --content "$GITHUB_WORKSPACE/wiki"
 
       - name: Pull the packer
         env:
@@ -113,6 +116,8 @@ jobs:
         env:
           VERSION: ${{ vars.WIKI_PACKER_VERSION }}
         run: |
+          # A missing file would let `docker -v` mount an empty directory instead.
+          test -s mcn/apps/wiki/.generated/freshness.json
           mkdir -p publish
           chmod 777 publish
           docker run --rm --network none \
@@ -151,6 +156,6 @@ jobs:
           # Keep the newest bundles; never the one `current` names.
           rclone lsf --files-only --format tp --separator ';' -R --include '/*/bundle.json' "r2:$BUCKET" \
             | sort -r | awk -F ';' '{ split($2, path, "/"); print path[1] }' \
-            | grep -vx "$BUNDLE_ID" | tail -n "+$KEEP_BUNDLES" \
+            | { grep -vx "$BUNDLE_ID" || true; } | tail -n "+$((KEEP_BUNDLES + 1))" \
             | while read -r old; do rclone purge "r2:$BUCKET/$old"; done
           echo "Published $BUNDLE_ID" >> "$GITHUB_STEP_SUMMARY"
