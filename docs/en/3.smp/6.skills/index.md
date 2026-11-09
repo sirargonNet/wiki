@@ -1,5 +1,5 @@
 ---
-verified: 0.21.0
+verified: 0.24.0
 title: 'Skills'
 description: 'Skill points, commands, skill tree and mana.'
 icon: lucide:sparkle
@@ -14,17 +14,20 @@ SMP XP raises your level and gives you skill points. You spend them in the skill
 
 In the skill tree you unlock stars. Every star costs one skill point. A star needs the tier before it. Higher tiers also need points in the same category, counted over all abilities of that category:
 
+- abilities with 3 tiers: from tier III the first number of points
 - abilities with 5 tiers: from tier III the first number of points, from tier IV the second
 - abilities with 8 tiers: from tier IV the first number of points, from tier VI the second
+
+Once every skill of an area is maxed, you unlock its [mastery](/smp/skills/overworld#mastery) there. Its Diamond tiers cost 3, 4 and 5 skill points.
 
 **Show as constellation** and **Show in columns** switch the view. The same choice is in `/settings`.
 
 ## Mana
 
-Abilities for larger areas only trigger while sneaking and cost mana. Your mana is shown above the hotbar. `/skills` shows it too.
+Abilities for larger areas only trigger while sneaking and cost mana. Some fishing abilities cost mana too. Your mana is shown above the hotbar. `/skills` shows it too.
 
 - Without [Mana Storage](/smp/skills/overworld) you have 50 mana. Every tier adds 25 mana, up to 250.
-- Without Mana Flow your mana refills by 0.5 per second. Mana Flow makes it faster, up to 2.5 per second.
+- Without Mana Flow your mana refills by 0.5 per second. Mana Flow makes it faster, up to 2.5 per second. Spirit Mastery refills even faster while you stand still and fills to 125% while meditating.
 - Your mana is full again when you join the server, leave it or die.
 
 | Ability        | Mana              |
@@ -35,6 +38,9 @@ Abilities for larger areas only trigger while sneaking and cost mana. Your mana 
 | Harvest Scythe | 1 per ripe crop   |
 | Excavator      | 1 per block       |
 | Sprint Boost   | 20                |
+| Fast Bite      | 2 per cast        |
+| Double Catch   | 3 per hit         |
+| Cook Catch     | 1 per cooked fish |
 
 The mana stars of a category lower these costs by 5% per tier. If a block is protected, you get its mana back. When your mana runs out, the ability stops. The blocks broken so far stay broken.
 
@@ -54,6 +60,8 @@ The mana stars of a category lower these costs by 5% per tier. If a block is pro
 
 `<…>` and `[…]` are placeholders; `[…]` is optional, `a|b` means one of them.
 
+Instead of `/skills` you can use `/skill`, instead of `/skilltree` also `/skillstree`.
+
 - `/skills`: abilities and mana
 - `/skills tree` or `/skilltree`: skill tree
 - `/skills toggle <ability>`: turn an ability on or off
@@ -61,8 +69,10 @@ The mana stars of a category lower these costs by 5% per tier. If a block is pro
 
 ### Resetting
 
-`/skills reset` resets all stars. You keep your XP and skill points.
+`/skills reset` or **Reset skills** in `/skills` resets all stars, Diamond tiers included. You keep your XP and skill points. You need at least one star for it.
 
 Your first reset is free. After that, every further reset costs 2,000 Silver more: 2,000, 4,000, 6,000 Silver and so on. You see the price before you confirm.
 
-When we change skill values, you may reset once for free. After that, the prices start from the beginning.
+When we change the skills or the skill tree, you may reset once for free. After that, the prices start from the beginning. The game tells you in chat. The free reset does not expire. Until you reset, your chosen skills remain.
+
+The fishing area and masteries changed the skill tree. That is why everyone who had already played on the SMP has a free reset.
