@@ -48,7 +48,7 @@ Keep German and English changes together. Run `pnpm check`, then preview both la
 
 ## 🛣️ Publishing
 
-The wiki is not versioned: there are no release tags and no version switcher. Merge reviewed Conventional Commits through `dev` into `main`, then rebuild the `apps/wiki` image in the monorepo; it always builds `main`.
+The wiki is not versioned: there are no release tags and no version switcher. Merge reviewed Conventional Commits through `dev` into `main`; the `Content bundle` workflow packs `main` with the content packer of the release in production and uploads it, and the website loads it within about a minute. Its required variables and secrets are listed at the top of `.github/workflows/content-bundle.yml`.
 
 ## 📄 License
 
