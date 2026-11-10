@@ -1,11 +1,11 @@
 ---
-verified: 0.21.0
+verified: 0.26.0
 title: 'Creative'
 description: 'Eigene Plots, alle Blöcke und WorldEdit.'
 icon: lucide:brick-wall
 ---
 
-Dein Plot, alle Blöcke. Probier Ideen aus oder bau, wofür dir im Survival das Material fehlt. Creative ist in der Beta.
+Dein Plot, alle Blöcke: Auf Creative bist du immer im Kreativmodus und baust auf deinen eigenen [Plots](/creative/plots). Probier Ideen aus oder bau, wofür dir im Survival das Material fehlt. Mit [WorldEdit](/creative/worldedit) geht es auf deinem Plot schneller. Creative ist in der Beta.
 
 ## Die Welt
 
@@ -22,3 +22,13 @@ Lies die [Regeln](/reference/rules) für Creative.
 
 ::page-cards
 ::
+
+## Häufige Fragen
+
+### Gibt es Monster oder PvP?
+
+Nein. Es ist immer Mittag und es gibt kein Wetter. Mit [Flags](/creative/plots#flags) stellst du Zeit und Wetter für deinen Plot ein.
+
+### Darf ich Litematica nutzen?
+
+Ja, in Creative ist Litematica erlaubt.

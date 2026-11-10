@@ -1,16 +1,20 @@
 ---
-verified: 0.21.0
+verified: 0.26.0
 title: 'Einstieg'
 description: 'Verbinde dich, sieh dich in der Lobby um und hol dir Hilfe.'
 icon: lucide:compass
 ---
 
-Neu hier? In vier Schritten bist du startklar:
+Neu hier? Dieser Bereich bringt dich ins Spiel: Du verbindest dich, siehst dich in der Lobby um und wählst deinen Spielmodus. Klappt etwas nicht, findest du hier auch Hilfe und die häufigen Fragen.
 
-1. [Verbinden](/getting-started/connect): Adresse, Version und Modpack.
-2. [Erste Schritte](/getting-started/first-steps): Bestätigungen und dein erster Spielmodus.
-3. [Lobby](/getting-started/lobby): Hotbar, NPCs und was du dort machen kannst.
+In vier Schritten bist du startklar:
+
+1. [Erste Schritte](/getting-started/first-steps): Adresse, Version, Modpack, Bestätigungen und dein erster Spielmodus.
+2. [Spielmodi](/getting-started/game-modes): SMP und Creative.
+3. [Lobby](/getting-started/lobby): Hotbar, NPCs, Warteschlange und was du dort machen kannst.
 4. [Hilfe](/getting-started/help): Guide, Fehler melden und Spieler melden.
+
+Außerdem findest du hier die [Statistiken](/getting-started/statistics) der Website und die [häufigen Fragen](/getting-started/faq).
 
 ::page-cards
 ::
