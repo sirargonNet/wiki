@@ -12,6 +12,10 @@ Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung
 
 Deine Aktionen zählen für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 
+::callout{type="info"}
+Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mit dem zuletzt bekannten Stand. Fehlende Bereiche zeigen **Wird geladen …**. Gemeinsame Belohnungsschätzungen werden im Hintergrund erneuert; dein eigener Beitrag bleibt aktuell.
+::
+
 ::page-cards
 ::
 
