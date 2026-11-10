@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'Quests'
 description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
 icon: lucide:scroll-text
@@ -29,11 +29,7 @@ Quests are daily and weekly tasks that earn you silver. Every player has the sam
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
-The menu opens once the game has loaded your quests. If it already knows your quests, it opens after a short moment and updates afterwards. If loading fails, you get the message **Your quests are currently unavailable.**
-
-::callout{type="info"}
-Preview of game update 0.26.0, not released yet: `/quests` and `/milestones` open immediately. If the game does not know your quests yet, the menu first shows **Loading …** and then fills in. The World Quest's estimated reward and top contributors refresh in the background. Until then the area shows **Loading …**.
-::
+`/quests` and `/milestones` open immediately. If the game does not know your quests yet, the menu first shows **Loading …** and then fills in. If loading fails, you get the message **Your quests are currently unavailable.** The World Quest's estimated reward and top contributors refresh in the background. Until then the area shows **Loading …**.
 
 ## How quests are drawn
 
@@ -53,11 +49,7 @@ Preview of game update 0.26.0, not released yet: `/quests` and `/milestones` ope
 
 You get the Nether quests on top of your Overworld quests. You see them once you have entered the Nether for the first time. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
 
-An action counts towards every matching quest, no matter which realm you do it in. For example, new chunks in the Nether also count towards an Overworld quest such as **Wanderer**.
-
-::callout{type="info"}
-Preview of game update 0.26.0, not released yet: your actions count only towards quests in the matching realm. For example, an action in the Nether no longer advances an Overworld quest.
-::
+Your actions count only towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
 
 ## Target of the day
 

@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'Getting started'
 description: 'Connect, look around the lobby and get help.'
 icon: lucide:compass

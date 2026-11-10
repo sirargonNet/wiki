@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'SMP'
 description: 'Survival with camps, cities, trading, quests and skills.'
 icon: lucide:trees
@@ -14,11 +14,7 @@ icon: lucide:trees
 3. Accept the resource pack. While it loads, you are protected.
 4. Confirm the SMP rules.
 
-If an ender pearl you threw earlier lands during this protection, for example in a stasis chamber, you land there once the protection ends. Only the latest landing counts. If the protection ends more than two minutes after the landing, the landing is dropped. It is also dropped if you log out or the landing spot is not free by then.
-
-::callout{type="info"}
-Preview of game update 0.26.0, not released yet: the two-minute limit goes away. The landing waits as long as you stay online, however long the protection lasts.
-::
+If an ender pearl you threw earlier lands during this protection, for example in a stasis chamber, you land there once the protection ends. Only the latest landing counts. It waits as long as you stay online, however long the protection lasts. It is dropped if you log out or the landing spot is not free by then.
 
 If you leave the Discord, you get a warning. If you do not rejoin in time, you return to the lobby.
 

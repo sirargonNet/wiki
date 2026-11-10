@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen, mit Stadtkasse und Claims 2.0.'
 icon: lucide:castle

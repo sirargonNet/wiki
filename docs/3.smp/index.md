@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'SMP'
 description: 'Survival mit Camps, Städten, Handel, Quests und Skills.'
 icon: lucide:trees
@@ -14,11 +14,7 @@ icon: lucide:trees
 3. Nimm das Ressourcenpaket an. Während es lädt, bist du geschützt.
 4. Bestätige die Regeln des SMP.
 
-Löst während dieses Schutzes eine Enderperle aus, die du vorher geworfen hast, zum Beispiel in einer Stasiskammer, landest du nach dem Schutz dort. Es zählt nur die letzte Landung. Endet der Schutz mehr als zwei Minuten nach der Landung, verfällt sie. Sie verfällt auch, wenn du ausloggst oder der Landeplatz dann nicht frei ist.
-
-::callout{type="info"}
-Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Die Grenze von zwei Minuten fällt weg. Die Landung wartet, solange du online bleibst, egal wie lange der Schutz dauert.
-::
+Löst während dieses Schutzes eine Enderperle aus, die du vorher geworfen hast, zum Beispiel in einer Stasiskammer, landest du nach dem Schutz dort. Es zählt nur die letzte Landung. Sie wartet, solange du online bleibst, egal wie lange der Schutz dauert. Sie verfällt, wenn du ausloggst oder der Landeplatz dann nicht frei ist.
 
 Verlässt du den Discord, bekommst du eine Warnung. Trittst du nicht rechtzeitig wieder bei, kommst du zurück in die Lobby.
 

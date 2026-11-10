@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'Creative'
 description: 'Eigene Plots, alle Blöcke und WorldEdit.'
 icon: lucide:brick-wall

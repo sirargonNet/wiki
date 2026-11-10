@@ -1,5 +1,5 @@
 ---
-verified: 0.25.0
+verified: 0.26.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
@@ -29,11 +29,7 @@ Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle S
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
-Das Menü öffnet, sobald das Spiel deine Quests geladen hat. Kennt es deine Quests schon, öffnet es nach einem kurzen Moment und aktualisiert sich danach. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
-
-::callout{type="info"}
-Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: `/quests` und `/milestones` öffnen sofort. Kennt das Spiel deine Quests noch nicht, zeigt das Menü zuerst **Wird geladen …** und füllt sich dann. Die geschätzte Belohnung und die Top-Beitragenden der World Quest werden im Hintergrund erneuert. Solange zeigt der Bereich **Wird geladen …**.
-::
+`/quests` und `/milestones` öffnen sofort. Kennt das Spiel deine Quests noch nicht, zeigt das Menü zuerst **Wird geladen …** und füllt sich dann. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.** Die geschätzte Belohnung und die Top-Beitragenden der World Quest werden im Hintergrund erneuert. Solange zeigt der Bereich **Wird geladen …**.
 
 ## So werden Quests gezogen
 
@@ -53,11 +49,7 @@ Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: `/quests` und 
 
 Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du den Nether zum ersten Mal betreten hast. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
 
-Eine Aktion zählt für jede passende Quest, egal in welchem Realm du sie machst. Neue Chunks im Nether zählen zum Beispiel auch für eine Oberwelt-Quest wie **Wanderer**.
-
-::callout{type="info"}
-Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Deine Aktionen zählen nur noch für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt mehr für eine Oberwelt-Quest.
-::
+Deine Aktionen zählen nur für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 
 ## Ziel des Tages
 
