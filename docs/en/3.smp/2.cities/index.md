@@ -111,7 +111,7 @@ Every city has a treasury. Anyone with the right deposits or withdraws Silver. C
 | further outpost chunk, Overworld |           20,000 Silver |
 | further outpost chunk, Nether    |           24,000 Silver |
 
-It is paid right when you claim. See [Outposts](/smp/cities/outposts). The founder pays the founding price personally, see [Found a city](/smp/cities#found-a-city).
+These prices apply to cities in the tier system. Older cities that have not migrated pay the old prices, see [Claims 2.0](#claims-20). It is paid right when you claim. See [Outposts](/smp/cities/outposts). The founder pays the founding price personally, see [Found a city](/smp/cities#found-a-city).
 
 Cities in the tier system pay no upkeep. Your tier rises through play time and [tier projects](/smp/cities/tiers), not through Silver.
 
@@ -199,7 +199,7 @@ If you do not migrate, everything stays as before:
 - **Buy chunk capacity:** 2,500 Silver per chunk, so 10,000 Silver per expansion of 4 chunks
 - The smaller of two limits applies: bought capacity, or the starting size plus 4 chunks per 2 residents.
 - the old ranks with at most ten city ranks
-- the old outpost rules
+- the old outpost rules: a new outpost costs 25,000 Silver
 
 | Residents | max chunks (start 25) | max chunks (start 16) |
 | --------- | --------------------- | --------------------- |

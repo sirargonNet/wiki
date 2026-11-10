@@ -14,6 +14,12 @@ icon: lucide:trees
 3. Nimm das Ressourcenpaket an. Während es lädt, bist du geschützt.
 4. Bestätige die Regeln des SMP.
 
+Löst während dieses Schutzes eine Enderperle aus, die du vorher geworfen hast, zum Beispiel in einer Stasiskammer, landest du nach dem Schutz dort. Es zählt nur die letzte Landung. Dauert der Schutz länger als zwei Minuten, verfällt sie.
+
+::callout{type="info"}
+Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Die Landung wartet, solange du online bleibst, auch wenn der Schutz länger dauert. Loggst du aus, verfällt sie.
+::
+
 Verlässt du den Discord, bekommst du eine Warnung. Trittst du nicht rechtzeitig wieder bei, kommst du zurück in die Lobby.
 
 ## Grundlagen

@@ -22,7 +22,9 @@ Overworld, Nether
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
-Your actions count towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
+::callout{type="info"}
+Preview of game update 0.26.0, not released yet: your actions count towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
+::
 
 ::callout{type="info"}
 Preview for 0.26.0, not published yet: quest menus open immediately with the last known state. Missing areas show **Loading …**. Shared reward estimates refresh in the background; your own contributions stay current.

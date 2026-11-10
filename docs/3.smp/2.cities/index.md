@@ -111,7 +111,7 @@ Jede Stadt hat eine Kasse. Wer das Recht hat, zahlt Silber ein oder hebt es ab. 
 | weiterer Außenposten-Chunk, Oberwelt |       20.000 Silber |
 | weiterer Außenposten-Chunk, Nether   |       24.000 Silber |
 
-Bezahlt wird direkt beim Claimen. Mehr unter [Außenposten](/smp/cities/outposts). Die Gründung bezahlt der Gründer selbst, siehe [Stadt gründen](/smp/cities#stadt-gründen).
+Diese Preise gelten für Städte im Stufensystem. Alte Städte ohne Wechsel zahlen die alten Preise, siehe [Claims 2.0](#claims-20). Bezahlt wird direkt beim Claimen. Mehr unter [Außenposten](/smp/cities/outposts). Die Gründung bezahlt der Gründer selbst, siehe [Stadt gründen](/smp/cities#stadt-gründen).
 
 Städte im Stufensystem zahlen keinen Upkeep. Eure Stufe steigt durch Spielzeit und [Stufenprojekte](/smp/cities/tiers), nicht durch Silber.
 
@@ -199,7 +199,7 @@ Wechselt ihr nicht, bleibt alles wie bisher:
 - **Chunk-Kapazität kaufen:** 2.500 Silber je Chunk, also 10.000 Silber pro Erweiterung um 4 Chunks
 - Es gilt die kleinere von zwei Grenzen: die gekaufte Kapazität oder die Startgröße plus 4 Chunks je 2 Bewohner.
 - die alten Ränge mit höchstens zehn Stadt-Rängen
-- die alten Regeln für Außenposten
+- die alten Regeln für Außenposten: ein neuer Außenposten kostet 25.000 Silber
 
 | Bewohner | höchstens Chunks (Start 25) | höchstens Chunks (Start 16) |
 | -------- | --------------------------- | --------------------------- |
