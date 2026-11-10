@@ -43,7 +43,10 @@ packages here. Read `README.md` and `CONTRIBUTING.md` first.
 ## Publishing
 
 The wiki is not versioned: no release tags, no release-please, no version
-switcher. The website builds `main`. Branch from `dev`, target `dev`, promote
-into `main` with a merge commit.
+switcher. Every push to `main` is packed into a content bundle and uploaded by
+`.github/workflows/content-bundle.yml`; the website loads it within about a
+minute, without a new image. Content may use only the frontmatter fields and
+components the website's image ships (see the monorepo's `write-wiki` skill).
+Branch from `dev`, target `dev`, promote into `main` with a merge commit.
 No commit, push, tag or release action is implied by a content-editing request;
 follow the session's explicit authorization.

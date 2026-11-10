@@ -1,0 +1,161 @@
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+
+# Publishes the wiki as a duxt content bundle (ADR-0570 in the mc-network
+# monorepo). Every push to `main` packs `docs/` with the content packer of the
+# release running in production and uploads it into the private R2 bucket the
+# wiki pods mirror: the complete bundle directory first, `current` last. A
+# bundle the running app cannot load is refused here, before the upload.
+#
+# Required repository configuration (no value lives in this file):
+#   vars.WIKI_PACKER_VERSION       release in production, e.g. 0.24.0; raise it with every release
+#   vars.WIKI_BUNDLE_BUCKET        the private bucket's name
+#   vars.WIKI_BUNDLE_ENDPOINT      https://<account id>.r2.cloudflarestorage.com
+#   secrets.WIKI_BUNDLE_WRITE_KEY_ID / WIKI_BUNDLE_WRITE_SECRET
+#                                  R2 token, Object Read & Write on that bucket only
+#   secrets.MCN_SOURCE_READ_TOKEN  fine-grained token, kirch-ostendorf/sirargon-net Contents: Read-only
+#   secrets.MCN_PACKAGES_READ_TOKEN
+#                                  token with read:packages on kirch-ostendorf (the packer image)
+name: Content bundle
+
+on:
+  push:
+    branches:
+      - main
+  # After a release: raise WIKI_PACKER_VERSION, then run this by hand.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# One upload at a time, in push order; a newer push never cancels an upload.
+concurrency:
+  group: content-bundle
+  cancel-in-progress: false
+
+env:
+  PACKER: ghcr.io/kirch-ostendorf/sirargon-net-wiki-packer
+  RCLONE: docker.io/rclone/rclone:1.75.2@sha256:2687085f718d3c628f7fdfb77c52a1d344332aed543110bb88088f2c70d43eb5
+  # Bundles kept in the bucket besides `current`; a pod may still read an older one.
+  KEEP_BUNDLES: '5'
+
+jobs:
+  publish:
+    name: Pack and upload
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Require the bundle configuration
+        env:
+          VERSION: ${{ vars.WIKI_PACKER_VERSION }}
+          BUCKET: ${{ vars.WIKI_BUNDLE_BUCKET }}
+          ENDPOINT: ${{ vars.WIKI_BUNDLE_ENDPOINT }}
+          KEY_ID: ${{ secrets.WIKI_BUNDLE_WRITE_KEY_ID }}
+          SECRET: ${{ secrets.WIKI_BUNDLE_WRITE_SECRET }}
+          SOURCE_TOKEN: ${{ secrets.MCN_SOURCE_READ_TOKEN }}
+          PACKAGES_TOKEN: ${{ secrets.MCN_PACKAGES_READ_TOKEN }}
+        run: |
+          missing=()
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]] || missing+=(WIKI_PACKER_VERSION)
+          [[ -n "$BUCKET" ]] || missing+=(WIKI_BUNDLE_BUCKET)
+          [[ "$ENDPOINT" =~ ^https://[^/[:space:]]+$ ]] || missing+=(WIKI_BUNDLE_ENDPOINT)
+          [[ -n "$KEY_ID" ]] || missing+=(WIKI_BUNDLE_WRITE_KEY_ID)
+          [[ -n "$SECRET" ]] || missing+=(WIKI_BUNDLE_WRITE_SECRET)
+          [[ -n "$SOURCE_TOKEN" ]] || missing+=(MCN_SOURCE_READ_TOKEN)
+          [[ -n "$PACKAGES_TOKEN" ]] || missing+=(MCN_PACKAGES_READ_TOKEN)
+          if (( ${#missing[@]} )); then
+            echo "::error title=Content bundle configuration missing::${missing[*]} — see the header of .github/workflows/content-bundle.yml"
+            exit 1
+          fi
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: wiki
+          persist-credentials: false
+
+      # The monorepo at the packer's release, with its tags: wiki-freshness compares
+      # each page's `verified` release with that one.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: kirch-ostendorf/sirargon-net
+          ref: v${{ vars.WIKI_PACKER_VERSION }}
+          token: ${{ secrets.MCN_SOURCE_READ_TOKEN }}
+          path: mcn
+          fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: wiki/.nvmrc
+
+      - name: Wiki checks
+        working-directory: wiki
+        run: |
+          corepack enable
+          pnpm install --frozen-lockfile
+          pnpm check
+          diff <(cd docs && find . -path ./en -prune -o -name '*.md' -print | sort) \
+            <(cd docs/en && find . -name '*.md' | sort)
+
+      # Writes mcn/apps/wiki/.generated/freshness.json, which the Pack step mounts.
+      - name: Wiki gameplay freshness
+        run: |
+          node mcn/tools/cli/wiki-freshness.ts \
+            --repo "$GITHUB_WORKSPACE/mcn" --content "$GITHUB_WORKSPACE/wiki"
+
+      - name: Pull the packer
+        env:
+          TOKEN: ${{ secrets.MCN_PACKAGES_READ_TOKEN }}
+          VERSION: ${{ vars.WIKI_PACKER_VERSION }}
+        run: |
+          printf '%s' "$TOKEN" | docker login ghcr.io -u token --password-stdin
+          docker pull "$PACKER:$VERSION"
+          docker logout ghcr.io
+
+      # --expect inside the packer refuses a structure or component the app lacks.
+      - name: Pack
+        env:
+          VERSION: ${{ vars.WIKI_PACKER_VERSION }}
+        run: |
+          # A missing file would let `docker -v` mount an empty directory instead.
+          test -s mcn/apps/wiki/.generated/freshness.json
+          mkdir -p publish
+          chmod 777 publish
+          docker run --rm --network none \
+            -v "$GITHUB_WORKSPACE/wiki/docs:/workspace/wiki-content/docs:ro" \
+            -v "$GITHUB_WORKSPACE/mcn/apps/wiki/.generated:/workspace/apps/wiki/.generated:ro" \
+            -v "$GITHUB_WORKSPACE/publish:/publish" \
+            "$PACKER:$VERSION"
+          id=$(cat publish/current)
+          [[ "$id" =~ ^[a-f0-9]{64}$ && -f "publish/$id/bundle.json" ]]
+          echo "BUNDLE_ID=$id" >> "$GITHUB_ENV"
+          echo "Bundle $id for packer $VERSION" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload, `current` last
+        env:
+          RCLONE_CONFIG_R2_TYPE: s3
+          RCLONE_CONFIG_R2_PROVIDER: Cloudflare
+          RCLONE_CONFIG_R2_NO_CHECK_BUCKET: 'true'
+          RCLONE_CONFIG_R2_ENDPOINT: ${{ vars.WIKI_BUNDLE_ENDPOINT }}
+          RCLONE_CONFIG_R2_ACCESS_KEY_ID: ${{ secrets.WIKI_BUNDLE_WRITE_KEY_ID }}
+          RCLONE_CONFIG_R2_SECRET_ACCESS_KEY: ${{ secrets.WIKI_BUNDLE_WRITE_SECRET }}
+          RCLONE_LOG_LEVEL: ERROR
+          BUCKET: ${{ vars.WIKI_BUNDLE_BUCKET }}
+        run: |
+          set -euo pipefail
+          rclone() {
+            docker run --rm -e RCLONE_CONFIG_R2_TYPE -e RCLONE_CONFIG_R2_PROVIDER \
+              -e RCLONE_CONFIG_R2_NO_CHECK_BUCKET -e RCLONE_CONFIG_R2_ENDPOINT \
+              -e RCLONE_CONFIG_R2_ACCESS_KEY_ID -e RCLONE_CONFIG_R2_SECRET_ACCESS_KEY \
+              -e RCLONE_LOG_LEVEL -e RCLONE_CONFIG=/tmp/rclone.conf \
+              -v "$GITHUB_WORKSPACE/publish:/publish:ro" "$RCLONE" "$@"
+          }
+          # Bundle directories are immutable and named by their content.
+          rclone copy --checksum "/publish/$BUNDLE_ID" "r2:$BUCKET/$BUNDLE_ID"
+          rclone check --one-way "/publish/$BUNDLE_ID" "r2:$BUCKET/$BUNDLE_ID"
+          rclone copyto /publish/current "r2:$BUCKET/current"
+          # Keep the newest bundles; never the one `current` names.
+          rclone lsf --files-only --format tp --separator ';' -R --include '/*/bundle.json' "r2:$BUCKET" \
+            | sort -r | awk -F ';' '{ split($2, path, "/"); print path[1] }' \
+            | { grep -vx "$BUNDLE_ID" || true; } | tail -n "+$((KEEP_BUNDLES + 1))" \
+            | while read -r old; do rclone purge "r2:$BUCKET/$old"; done
+          echo "Published $BUNDLE_ID" >> "$GITHUB_STEP_SUMMARY"
