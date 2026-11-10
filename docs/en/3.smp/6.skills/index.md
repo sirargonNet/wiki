@@ -57,8 +57,8 @@ The mana stars of a category lower these costs by 5% per tier. If a block is pro
 - No ability breaks blocks you placed yourself.
 - When your tool has 5 durability or less left, you only break single blocks. That way it does not break.
 - An ability runs as long as you sneak and hold the same tool in the same slot. If you let go or switch, it stops.
-- Tree Feller is the exception: sneaking only triggers it. A felling that has started keeps going, even if you let go, switch tools or take damage. After a switch, the tool you then hold wears down.
-- A started felling ends when the tree is down, your tool has only 5 durability left, you hold something without durability (empty hand, block, food), your mana does not cover the next log, the next log is protected, or you log out. It also ends when you switch the ability off or change worlds.
+- Tree Feller is the exception: sneaking only triggers it. A felling that has started keeps going, even if you let go or take damage. If you switch tools, it only keeps going with a tool that wears down when breaking blocks: axe, pickaxe, shovel, hoe, sword, shears, trident or mace. That tool then wears down.
+- A started felling ends when the tree is down, your tool has only 5 durability left, you hold something else after a switch (for example armour, elytra, a shield, bow, crossbow, fishing rod, flint and steel, brush, a block, food or nothing), your mana does not cover the next log, the next log is protected, or you log out. It also ends when you switch the ability off or change worlds.
 - Every block must be at most 32 blocks away from you and loaded. Otherwise the ability stops.
 - If you trigger an ability while another one runs, the new one waits. At most 4 wait at the same time. If you stop the running one yourself, the waiting ones are dropped.
 - Use `/skills toggle` to turn off an ability that gets in your way.
