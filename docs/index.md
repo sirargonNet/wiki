@@ -9,11 +9,11 @@ Willkommen auf sirargon.net! Hier findest du alles, was du zum Spielen brauchst.
 
 Über die Bereichsleiste erreichst du die Seiten eines Themas. Auf dem Handy öffnest du das Menü und wählst den Bereich; mit „Zurück“ gehst du eine Ebene höher.
 
-- [Einstieg](/getting-started): verbinden, erste Schritte, Lobby und Hilfe.
-- [Account & Community](/guides): Account, Freunde, Party, Chat, Clans und Einstellungen.
-- [Spielmodi](/getting-started/game-modes): SMP und Creative.
-- [Regeln & Mods](/reference): was erlaubt ist.
+- [Einstieg](/getting-started): erste Schritte, Spielmodi, Lobby und Hilfe.
+- Account & Community: [Account](/guides/account), [Inventar](/guides/inventory), [Währungen](/guides/currencies), [Freunde & Party](/guides/friends), [Chat](/guides/chat), [Clans](/guides/clans) und [Einstellungen](/guides/settings).
+- [Spielmodi](/getting-started/game-modes): [SMP](/smp) und [Creative](/creative).
+- Regeln & Mods: [Regeln](/reference/rules) und [Mods & Clients](/reference/mods), was erlaubt ist.
 - [Befehle](/reference/commands): alle Befehle auf einen Blick.
-- [FAQ](/faq): schnelle Antworten.
+- [Häufige Fragen](/getting-started/faq): schnelle Antworten.
 
 Du brauchst Minecraft: Java Edition. Im Spiel hilft dir jederzeit `/guide`.

@@ -22,3 +22,13 @@ Lies die [Regeln](/reference/rules) für Creative.
 
 ::page-cards
 ::
+
+## Häufige Fragen
+
+### Gibt es Monster oder PvP?
+
+Nein. Es ist immer Mittag und es gibt kein Wetter. Mit [Flags](/creative/plots#flags) stellst du Zeit und Wetter für deinen Plot ein.
+
+### Darf ich Litematica nutzen?
+
+Ja, in Creative ist Litematica erlaubt.

@@ -23,7 +23,7 @@ If you leave the Discord, you get a warning. If you do not rejoin in time, you r
 - New here? `/rtp` takes you to a safe place in the wilderness for free, see [Starter teleport](/smp#starter-teleport).
 - You protect your builds with a [camp](/smp/camps) or in a [city](/smp/cities).
 - Your sidebar shows your silver and your SMP level.
-- Villagers do not trade, see [Villagers](/smp/villagers).
+- Villagers do not trade, see [Villagers](/smp/mechanics#villagers).
 - The world has three realms: Overworld, Nether and End. The Nether is open, see [Realms](/smp/realms).
 - Some values differ from vanilla, for example there is no locator bar and minecarts go faster, see [Changed mechanics](/smp/mechanics).
 
@@ -50,6 +50,20 @@ Read the [rules](/reference/rules) for the SMP. Litematica is allowed, but autom
 - `/rtp`: safe starting spot in the wilderness, only without a camp, city or plot, see [Starter teleport](/smp#starter-teleport)
 - `/stats`: statistics
 - `/credits`: credits
+
+## Frequently asked questions
+
+### Why can I not join the SMP?
+
+You need a [Discord link](/guides/account#discord) and Discord membership. Also accept the resource pack and confirm the rules.
+
+### Are there homes or teleports?
+
+There are no homes or warps. You travel on foot, by horse, boat or minecart. New players without a camp, city or plot can use `/rtp` to reach a safe place in the wilderness. More under [Starter teleport](/smp#starter-teleport).
+
+### May I use Litematica?
+
+Yes. Schematics, the preview, material lists and the verifier are allowed. Automatic placement is forbidden: the Easy Place mode, printer mods and add-ons and any other mod that places blocks by itself. How to turn both off: [Turn off Easy Place and printers](/reference/mods#turn-off-easy-place-and-printers).
 
 ::page-cards
 ::
