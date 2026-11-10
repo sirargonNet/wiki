@@ -1,5 +1,5 @@
 ---
-verified: 0.24.0
+verified: 0.25.0
 title: 'Cities'
 description: 'Build, manage and rise through eight tiers together, with treasury and Claims 2.0.'
 icon: lucide:castle
@@ -72,14 +72,14 @@ Cities exist only in the Overworld.
 
 ## Join and leave
 
-- A city invites you. You accept the invitation in `/city`.
+- A city invites you. You accept the invitation in `/city` with **Join city**.
 - In `/city` choose **Leave city**.
 
 ## Add land
 
 **Add current chunk** adds the chunk you stand in. Every new chunk costs 16,000 Silver from the city treasury. It is paid right when you claim it. Under **Land management** you can check the chunks before you confirm.
 
-When your tier's limit is reached, the game says: "Your city has reached its tier's chunk limit." Only the next tier helps then.
+When your tier's limit is reached, the game says: "Your city has reached its tier’s chunk limit." Only the next tier helps then.
 
 ## Release land
 

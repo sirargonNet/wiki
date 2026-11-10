@@ -1,5 +1,5 @@
 ---
-verified: 0.24.0
+verified: 0.25.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen, mit Stadtkasse und Claims 2.0.'
 icon: lucide:castle
@@ -72,7 +72,7 @@ Städte gibt es nur in der Oberwelt.
 
 ## Beitreten und verlassen
 
-- Eine Stadt lädt dich ein. Du nimmst die Einladung in `/city` an.
+- Eine Stadt lädt dich ein. Du nimmst die Einladung in `/city` mit **Stadt beitreten** an.
 - In `/city` wählst du **Stadt verlassen**.
 
 ## Land dazunehmen
