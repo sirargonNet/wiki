@@ -57,8 +57,8 @@ Die Mana-Sterne einer Kategorie senken diese Kosten, pro Stufe um 5 %. Ist ein B
 - Selbst gesetzte Blöcke baut keine Fähigkeit mit ab.
 - Hat dein Werkzeug nur noch 5 Haltbarkeit oder weniger, baust du nur noch einzelne Blöcke ab. So geht es nicht kaputt.
 - Eine Fähigkeit läuft, solange du schleichst und dasselbe Werkzeug im selben Feld hältst. Lässt du los oder wechselst du, stoppt sie.
-- Baumfäller ist die Ausnahme: Schleichen löst ihn nur aus. Ein begonnenes Fällen läuft weiter, auch wenn du loslässt, das Werkzeug wechselst oder Schaden nimmst.
-- Ein begonnenes Fällen endet, wenn der Baum gefällt ist, dein Werkzeug nur noch 5 Haltbarkeit hat, dein Mana für den nächsten Stamm nicht reicht, der nächste Stamm geschützt ist oder du ausloggst.
+- Baumfäller ist die Ausnahme: Schleichen löst ihn nur aus. Ein begonnenes Fällen läuft weiter, auch wenn du loslässt, das Werkzeug wechselst oder Schaden nimmst. Nach einem Wechsel nutzt sich das Werkzeug ab, das du dann hältst.
+- Ein begonnenes Fällen endet, wenn der Baum gefällt ist, dein Werkzeug nur noch 5 Haltbarkeit hat, du etwas ohne Haltbarkeit hältst (leere Hand, Block, Essen), dein Mana für den nächsten Stamm nicht reicht, der nächste Stamm geschützt ist oder du ausloggst. Es endet auch, wenn du die Fähigkeit ausschaltest oder die Welt wechselst.
 - Jeder Block muss höchstens 32 Blöcke von dir entfernt und geladen sein. Sonst stoppt die Fähigkeit.
 - Löst du eine Fähigkeit aus, während noch eine läuft, wartet die neue. Höchstens 4 warten gleichzeitig. Stoppst du die laufende selbst, fallen die wartenden weg.
 - Mit `/skills toggle` schaltest du eine Fähigkeit aus, die dich gerade stört.
