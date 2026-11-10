@@ -9,6 +9,8 @@ icon: lucide:scroll-text
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
+Your actions count towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
+
 ::page-cards
 ::
 
