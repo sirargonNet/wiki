@@ -10,6 +10,8 @@ categories: ['SMP']
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
+Deine Aktionen zählen für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
+
 ::page-cards
 ::
 
