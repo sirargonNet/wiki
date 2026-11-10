@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-Overworld
+[Overworld](/smp/realms#overworld)
 :::
 
 :::infobox-row{label="Cost" key="cost"}

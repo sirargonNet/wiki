@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-Oberwelt, Nether
+[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether)
 :::
 
 ::
