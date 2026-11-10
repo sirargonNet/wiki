@@ -7,6 +7,10 @@ icon: lucide:sparkle
 
 Mit SMP-XP steigst du im Level und bekommst Skillpunkte. Mit ihnen schaltest du im Skillbaum Fähigkeiten frei. Wie du XP sammelst und wie viel ein Level kostet, steht unter [Level und XP](/smp/skills/levels).
 
+::callout{type="info"}
+Vorschau für 0.26.0, noch nicht veröffentlicht: Beim Öffnen der Skills werden Meilensteine im Hintergrund geprüft. Den zuletzt bekannten Stand kannst du währenddessen nutzen. Fortschritt aus deinen Aktionen wird weiter sofort aktualisiert.
+::
+
 ::page-cards
 ::
 

@@ -7,6 +7,10 @@ icon: lucide:sparkle
 
 SMP XP raises your level and gives you skill points. You spend them in the skill tree to unlock abilities. How you collect XP and how much a level costs is under [Levels and XP](/smp/skills/levels).
 
+::callout{type="info"}
+Preview for 0.26.0, not published yet: opening skills triggers milestone checks in the background. You can use the last known state while they run. Progress from your actions continues to update immediately.
+::
+
 ::page-cards
 ::
 

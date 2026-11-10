@@ -9,6 +9,10 @@ icon: lucide:scroll-text
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
+::callout{type="info"}
+Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mit dem zuletzt bekannten Stand. Fehlende Bereiche zeigen **Wird geladen …**. Gemeinsame Belohnungsschätzungen werden im Hintergrund erneuert; dein eigener Beitrag bleibt aktuell.
+::
+
 ::page-cards
 ::
 
