@@ -7,6 +7,8 @@ icon: lucide:book-open-text
 
 Welcome to sirargon.net! Here you find everything you need to play.
 
+Use the section bar to find pages about a topic. On your phone, open the menu and choose a section; use “Back” to go up one level.
+
 - [Getting started](/getting-started): connect, first steps, lobby and help.
 - [Account & community](/guides): account, friends, party, chat, clans and settings.
 - [Game modes](/getting-started/game-modes): SMP and Creative.
