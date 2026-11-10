@@ -5,7 +5,7 @@ description: 'Eigene Plots, alle Blöcke und WorldEdit.'
 icon: lucide:brick-wall
 ---
 
-Dein Plot, alle Blöcke. Probier Ideen aus oder bau, wofür dir im Survival das Material fehlt. Creative ist in der Beta.
+Dein Plot, alle Blöcke: Auf Creative bist du immer im Kreativmodus und baust auf deinen eigenen [Plots](/creative/plots). Probier Ideen aus oder bau, wofür dir im Survival das Material fehlt. Mit [WorldEdit](/creative/worldedit) geht es auf deinem Plot schneller. Creative ist in der Beta.
 
 ## Die Welt
 

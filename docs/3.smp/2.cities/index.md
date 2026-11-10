@@ -26,7 +26,7 @@ Netzwerk-Level 5
 
 ::
 
-Eine Stadt ist ein gemeinsames Gebiet aus ganzen Chunks. Ihr verwaltet sie zusammen, vergebt Ränge, haltet Wahlen ab und könnt Plots verkaufen oder vermieten. Mit eurer Spielzeit steigt die Stadt über acht [Stufen](/smp/cities/tiers) auf, von der Lichtung bis zur Metropole.
+Eine Stadt ist ein gemeinsames Gebiet aus ganzen Chunks in der Oberwelt. Ihr verwaltet sie zusammen, vergebt Ränge, haltet Wahlen ab und könnt Plots verkaufen oder vermieten. Zum Gründen brauchst du Netzwerk-Level 5 und 100.000 Silber. Mit eurer Spielzeit steigt die Stadt über acht [Stufen](/smp/cities/tiers) auf, von der Lichtung bis zur Metropole.
 
 ::callout{type="info" title="Claims 2.0"}
 Seit Version 0.24.0 wachsen Städte über Stufen statt über gekaufte Kapazität. Es gibt keinen Upkeep mehr. Hast du schon vorher eine Stadt gegründet, lies [Claims 2.0](/smp/cities#claims-20).

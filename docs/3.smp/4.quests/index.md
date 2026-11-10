@@ -18,19 +18,23 @@ Oberwelt, Nether
 
 ::
 
-`/quests` zeigt deine täglichen und wöchentlichen Quests. Links stehen die Tagesquests, rechts die Wochenquests. Jedes [Realm](/smp/realms) hat eine eigene Reihe. Die Farbe der Felder zeigt das Realm: grün die Oberwelt, rot der Nether.
-
-Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
+Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle Spieler haben dieselben Quests. `/quests` zeigt sie, jedes [Realm](/smp/realms) hat eine eigene Reihe. Dazu kommt die gemeinsame [World Quest](/smp/quests/world-quest).
 
 ::callout{type="info"}
 Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Deine Aktionen zählen für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 ::
 
-::callout{type="info"}
-Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mit dem zuletzt bekannten Stand. Fehlende Bereiche zeigen **Wird geladen …**. Gemeinsame Belohnungsschätzungen werden im Hintergrund erneuert; dein eigener Beitrag bleibt aktuell.
+::page-cards
 ::
 
-::page-cards
+## Quest-Menü
+
+`/quests` zeigt deine täglichen und wöchentlichen Quests. Links stehen die Tagesquests, rechts die Wochenquests. Jedes [Realm](/smp/realms) hat eine eigene Reihe. Die Farbe der Felder zeigt das Realm: grün die Oberwelt, rot der Nether.
+
+Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
+
+::callout{type="info"}
+Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mit dem zuletzt bekannten Stand. Fehlende Bereiche zeigen **Wird geladen …**. Gemeinsame Belohnungsschätzungen werden im Hintergrund erneuert; dein eigener Beitrag bleibt aktuell.
 ::
 
 ## So werden Quests gezogen

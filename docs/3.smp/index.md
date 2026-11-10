@@ -5,7 +5,7 @@ description: 'Survival mit Camps, Städten, Handel, Quests und Skills.'
 icon: lucide:trees
 ---
 
-**SMP Season 10** ist eine Survival-Welt für alle: Such dir deinen Platz, bau dein Zuhause und handle mit deinen Nachbarn. Je größer die Community, desto größer die Welt. Das SMP ist in der Beta.
+**SMP Season 10** ist eine Survival-Welt für alle: Such dir deinen Platz, bau dein Zuhause und handle mit deinen Nachbarn. Das SMP ist in der Beta. Zum Beitreten brauchst du eine [Discord-Verknüpfung](/guides/account#discord). Homes und Warps gibt es nicht. Deine Bauten schützt du mit einem [Camp](/smp/camps) oder in einer [Stadt](/smp/cities).
 
 ## Beitreten
 

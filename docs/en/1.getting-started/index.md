@@ -5,7 +5,9 @@ description: 'Connect, look around the lobby and get help.'
 icon: lucide:compass
 ---
 
-New here? Four steps get you ready:
+New here? This section gets you into the game: you connect, look around the lobby and choose your game mode. If something does not work, you also find help and the frequently asked questions here.
+
+Four steps get you ready:
 
 1. [First steps](/getting-started/first-steps): address, version, modpack, confirmations and your first game mode.
 2. [Game modes](/getting-started/game-modes): SMP and Creative.

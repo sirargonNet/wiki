@@ -5,7 +5,9 @@ description: 'Verbinde dich, sieh dich in der Lobby um und hol dir Hilfe.'
 icon: lucide:compass
 ---
 
-Neu hier? In vier Schritten bist du startklar:
+Neu hier? Dieser Bereich bringt dich ins Spiel: Du verbindest dich, siehst dich in der Lobby um und wählst deinen Spielmodus. Klappt etwas nicht, findest du hier auch Hilfe und die häufigen Fragen.
+
+In vier Schritten bist du startklar:
 
 1. [Erste Schritte](/getting-started/first-steps): Adresse, Version, Modpack, Bestätigungen und dein erster Spielmodus.
 2. [Spielmodi](/getting-started/game-modes): SMP und Creative.

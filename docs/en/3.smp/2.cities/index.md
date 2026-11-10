@@ -26,7 +26,7 @@ Network level 5
 
 ::
 
-A city is a shared territory made of whole chunks. You manage it together, assign ranks, hold elections and can sell or rent out plots. Through your play time the city rises through eight [tiers](/smp/cities/tiers), from Clearing to Metropolis.
+A city is a shared territory made of whole chunks in the Overworld. You manage it together, assign ranks, hold elections and can sell or rent out plots. To found one, you need network level 5 and 100,000 silver. Through your play time the city rises through eight [tiers](/smp/cities/tiers), from Clearing to Metropolis.
 
 ::callout{type="info" title="Claims 2.0"}
 Since version 0.24.0 cities grow through tiers instead of bought capacity. There is no upkeep any more. If you founded a city before, read [Claims 2.0](/smp/cities#claims-20).

@@ -5,7 +5,7 @@ description: 'Your own plots, every block and WorldEdit.'
 icon: lucide:brick-wall
 ---
 
-Your plot, every block. Try out ideas or build what you lack the materials for in survival. Creative is in beta.
+Your plot, every block: on Creative you are always in creative mode and build on your own [plots](/creative/plots). Try out ideas or build what you lack the materials for in survival. [WorldEdit](/creative/worldedit) makes it faster on your plot. Creative is in beta.
 
 ## The world
 
