@@ -5,6 +5,22 @@ description: 'Survival mit Camps, Städten, Handel, Quests und Skills.'
 icon: lucide:trees
 ---
 
+::infobox{title="SMP"}
+
+:::infobox-row{label="Befehl" key="command"}
+`/rtp`
+:::
+
+:::infobox-row{label="Realm" key="realm"}
+[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether)
+:::
+
+:::infobox-row{label="Voraussetzung" key="requirement"}
+[Discord-Verknüpfung](/guides/account#discord)
+:::
+
+::
+
 **SMP Season 10** ist eine Survival-Welt für alle: Such dir deinen Platz, bau dein Zuhause und handle mit deinen Nachbarn. Das SMP ist in der Beta. Zum Beitreten brauchst du eine [Discord-Verknüpfung](/guides/account#discord). Homes und Warps gibt es nicht. Deine Bauten schützt du mit einem [Camp](/smp/camps) oder in einer [Stadt](/smp/cities).
 
 ## Beitreten
