@@ -1,5 +1,5 @@
 ---
-verified: 0.21.0
+verified: 0.25.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
@@ -20,10 +20,6 @@ Oberwelt, Nether
 
 Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle Spieler haben dieselben Quests. `/quests` zeigt sie, jedes [Realm](/smp/realms) hat eine eigene Reihe. Dazu kommt die gemeinsame [World Quest](/smp/quests/world-quest).
 
-::callout{type="info"}
-Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Deine Aktionen zählen für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
-::
-
 ::page-cards
 ::
 
@@ -33,8 +29,10 @@ Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Deine Aktionen
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
+Das Menü öffnet, sobald das Spiel deine Quests geladen hat. Kennt es deine Quests schon, öffnet es nach einem kurzen Moment und aktualisiert sich danach. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
+
 ::callout{type="info"}
-Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mit dem zuletzt bekannten Stand. Fehlende Bereiche zeigen **Wird geladen …**. Gemeinsame Belohnungsschätzungen werden im Hintergrund erneuert; dein eigener Beitrag bleibt aktuell.
+Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: `/quests` und `/milestones` öffnen sofort. Kennt das Spiel deine Quests noch nicht, zeigt das Menü zuerst **Wird geladen …** und füllt sich dann. Die geschätzte Belohnung und die Top-Beitragenden der World Quest werden im Hintergrund erneuert. Solange zeigt der Bereich **Wird geladen …**.
 ::
 
 ## So werden Quests gezogen
@@ -55,6 +53,12 @@ Vorschau für 0.26.0, noch nicht veröffentlicht: Quest-Menüs öffnen sofort mi
 
 Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du den Nether zum ersten Mal betreten hast. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
 
+Eine Aktion zählt für jede passende Quest, egal in welchem Realm du sie machst. Neue Chunks im Nether zählen zum Beispiel auch für eine Oberwelt-Quest wie **Wanderer**.
+
+::callout{type="info"}
+Vorschau auf das Spiel-Update 0.26.0, noch nicht veröffentlicht: Deine Aktionen zählen nur noch für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt mehr für eine Oberwelt-Quest.
+::
+
 ## Ziel des Tages
 
 Manche Quests wählen ein Ziel des Tages, zum Beispiel eine bestimmte Holzart. Die Quest zeigt es dir als **Heute: …**. Wie viel du brauchst, hängt vom Ziel ab.
@@ -69,6 +73,8 @@ Bei Kill-Quests zählt ein Mob für den Spieler, der ihm den meisten Schaden gem
 | :---------- | -----------: | -----------: | ------------: |
 | täglich     | 1.000 Silber | 2.000 Silber |  3.000 Silber |
 | wöchentlich | 3.000 Silber | 6.000 Silber | 12.000 Silber |
+
+Tagesquests bringen seit dem 6. November 2026 mindestens diese Beträge. Hast du für eine Tagesquest ab diesem Tag weniger bekommen, zahlt das Spiel die Differenz nach. Du bekommst dann die Nachricht **Daily-Nachzahlung**.
 
 Quests im Nether bringen 25 % mehr:
 
@@ -88,8 +94,6 @@ Bei manchen Quests lieferst du Items ab, zum Beispiel Brot oder Eisenbarren.
 ## World Quest
 
 Zusätzlich gibt es eine gemeinsame **World Quest**. Öffne `/quests`. Unter deinen persönlichen Quests steht direkt der Bereich **World Quest**. Alle helfen mit Rohstoffen. Die [Anleitung und Belohnungen](/smp/quests/world-quest) erklären die Abgabe.
-
-Neue Tagesquests bringen seit 0.21.0 die oben genannten Belohnungen. Bereits gezogene Quests behalten ihre Werte. Die Umstellung gilt ab der nächsten täglichen Ziehung oder einer später geplanten Freigabe. Im Zweifel gilt dein Quest-Menü.
 
 ## Oberwelt
 

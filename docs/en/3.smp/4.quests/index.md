@@ -1,5 +1,5 @@
 ---
-verified: 0.21.0
+verified: 0.25.0
 title: 'Quests'
 description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
 icon: lucide:scroll-text
@@ -20,10 +20,6 @@ Overworld, Nether
 
 Quests are daily and weekly tasks that earn you silver. Every player has the same quests. `/quests` shows them, and each [realm](/smp/realms) has its own row. On top comes the shared [World Quest](/smp/quests/world-quest).
 
-::callout{type="info"}
-Preview of game update 0.26.0, not released yet: your actions count towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
-::
-
 ::page-cards
 ::
 
@@ -33,8 +29,10 @@ Preview of game update 0.26.0, not released yet: your actions count towards ques
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
+The menu opens once the game has loaded your quests. If it already knows your quests, it opens after a short moment and updates afterwards. If loading fails, you get the message **Your quests are currently unavailable.**
+
 ::callout{type="info"}
-Preview for 0.26.0, not published yet: quest menus open immediately with the last known state. Missing areas show **Loading …**. Shared reward estimates refresh in the background; your own contributions stay current.
+Preview of game update 0.26.0, not released yet: `/quests` and `/milestones` open immediately. If the game does not know your quests yet, the menu first shows **Loading …** and then fills in. The World Quest's estimated reward and top contributors refresh in the background. Until then the area shows **Loading …**.
 ::
 
 ## How quests are drawn
@@ -55,6 +53,12 @@ Preview for 0.26.0, not published yet: quest menus open immediately with the las
 
 You get the Nether quests on top of your Overworld quests. You see them once you have entered the Nether for the first time. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
 
+An action counts towards every matching quest, no matter which realm you do it in. For example, new chunks in the Nether also count towards an Overworld quest such as **Wanderer**.
+
+::callout{type="info"}
+Preview of game update 0.26.0, not released yet: your actions count only towards quests in the matching realm. For example, an action in the Nether no longer advances an Overworld quest.
+::
+
 ## Target of the day
 
 Some quests pick a target of the day, for example a certain kind of wood. The quest shows it as **Today: …**. How many you need depends on the target.
@@ -69,6 +73,8 @@ In kill quests, a mob counts for the player who dealt it the most damage. On a t
 | :----- | -----------: | -----------: | ------------: |
 | daily  | 1,000 Silver | 2,000 Silver |  3,000 Silver |
 | weekly | 3,000 Silver | 6,000 Silver | 12,000 Silver |
+
+Since 6 November 2026, daily quests pay at least these amounts. If you got less for a daily quest from that day on, the game pays the difference later. You then get the message **Daily quest back pay**.
 
 Quests in the Nether pay 25% more:
 
@@ -88,8 +94,6 @@ Some quests ask you to turn in items, for example bread or iron ingots.
 ## World Quest
 
 There is also a shared **World Quest**. Open `/quests`. The **World Quest** area sits directly below your personal quests. Everyone helps by donating raw materials. See the [instructions and rewards](/smp/quests/world-quest).
-
-New daily quests use the rewards above from 0.21.0. Quests already drawn keep their existing terms. The change takes effect at the next daily draw or a later scheduled publication. Check your quest menu for your current rewards.
 
 ## Overworld
 
