@@ -3,6 +3,7 @@ verified: 0.24.0
 title: 'Skills'
 description: 'Skillpunkte, Befehle, Skillbaum und Mana.'
 icon: lucide:sparkle
+categories: ['SMP']
 ---
 
 Mit SMP-XP steigst du im Level und bekommst Skillpunkte. Mit ihnen schaltest du im Skillbaum Fähigkeiten frei. Wie du XP sammelst und wie viel ein Level kostet, steht unter [Level und XP](/smp/skills/levels).
@@ -76,3 +77,6 @@ Das erste Zurücksetzen ist kostenlos. Danach kostet jedes weitere 2.000 Silber 
 Ändern wir die Skills oder den Skillbaum, darfst du einmal kostenlos zurücksetzen. Danach beginnt die Preisstaffel wieder von vorn. Das Spiel sagt dir im Chat Bescheid. Die kostenlose Runde verfällt nicht. Bis du zurücksetzt, bleiben deine gewählten Skills erhalten.
 
 Mit dem Angel-Bereich und den Meisterschaften hat sich der Skillbaum geändert. Darum hat jeder, der schon im SMP gespielt hat, ein kostenloses Zurücksetzen.
+
+::navbox{category="SMP"}
+::

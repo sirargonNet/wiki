@@ -3,6 +3,7 @@ verified: 0.25.0
 title: 'Cities'
 description: 'Build, manage and rise through eight tiers together.'
 icon: lucide:castle
+categories: ['SMP']
 ---
 
 A city is a shared territory made of whole chunks. You manage it together, assign ranks, hold elections and can sell or rent out plots. Through your play time the city rises through eight [tiers](/smp/cities/tiers), from Clearing to Metropolis.
@@ -119,4 +120,7 @@ With `/city`:
 - `retry`: repeat a change with an unclear result
 
 ::page-cards
+::
+
+::navbox{category="SMP"}
 ::

@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Mods'
 description: 'Which mods are forbidden.'
 icon: lucide:puzzle
+categories: ['Rules & mods']
 ---
 
 You may use the mods in the official modpack [Sirargons Mod-Mische](https://sirargon.net/modpack) everywhere. The [rules](/reference/rules) apply as well.
@@ -46,4 +47,7 @@ Litematica itself is allowed in the SMP: load schematics, show them as a preview
 Ask first on the [official Discord](https://discord.sirargon.net).
 
 ::page-cards
+::
+
+::navbox{category="Rules & mods"}
 ::

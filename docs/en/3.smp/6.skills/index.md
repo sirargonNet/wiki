@@ -3,6 +3,7 @@ verified: 0.24.0
 title: 'Skills'
 description: 'Skill points, commands, skill tree and mana.'
 icon: lucide:sparkle
+categories: ['SMP']
 ---
 
 SMP XP raises your level and gives you skill points. You spend them in the skill tree to unlock abilities. How you collect XP and how much a level costs is under [Levels and XP](/smp/skills/levels).
@@ -76,3 +77,6 @@ Your first reset is free. After that, every further reset costs 2,000 Silver mor
 When we change the skills or the skill tree, you may reset once for free. After that, the prices start from the beginning. The game tells you in chat. The free reset does not expire. Until you reset, your chosen skills remain.
 
 The fishing area and masteries changed the skill tree. That is why everyone who had already played on the SMP has a free reset.
+
+::navbox{category="SMP"}
+::

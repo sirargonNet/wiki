@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Meilensteine'
 description: 'Einmalige Ziele, die dir Silber bringen, nach Realm.'
 icon: lucide:flag
+categories: ['SMP']
 ---
 
 `/milestones` zeigt einmalige Meilensteine. Jeder bringt dir einmal Silber. Oben wählst du das Realm, darunter stehen seine Meilensteine. Erreichte Meilensteine sind dunkler.
@@ -13,3 +14,6 @@ icon: lucide:flag
 ## Befehle
 
 - `/milestones`: Meilensteine
+
+::navbox{category="SMP"}
+::

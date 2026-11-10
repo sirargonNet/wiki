@@ -3,6 +3,7 @@ verified: 0.25.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen.'
 icon: lucide:castle
+categories: ['SMP']
 ---
 
 Eine Stadt ist ein gemeinsames Gebiet aus ganzen Chunks. Ihr verwaltet sie zusammen, vergebt Ränge, haltet Wahlen ab und könnt Plots verkaufen oder vermieten. Mit eurer Spielzeit steigt die Stadt über acht [Stufen](/smp/cities/tiers) auf, von der Lichtung bis zur Metropole.
@@ -119,4 +120,7 @@ Bei `/city`:
 - `retry`: Änderung mit unklarem Ergebnis wiederholen
 
 ::page-cards
+::
+
+::navbox{category="SMP"}
 ::

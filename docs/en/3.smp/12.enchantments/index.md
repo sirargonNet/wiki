@@ -3,6 +3,7 @@ verified: 0.20.0
 title: 'Enchantments'
 description: 'Additional enchantments on the SMP and where to find them, by realm.'
 icon: lucide:sparkles
+categories: ['SMP']
 ---
 
 Besides the vanilla enchantments, the SMP has more enchantments. The structures where you find them have their own [advancements](/smp/advancements/overworld#structures).
@@ -14,4 +15,7 @@ Besides the vanilla enchantments, the SMP has more enchantments. The structures 
 
 ::callout{type="info" title="Coming after release"}
 We add the End enchantments after release.
+::
+
+::navbox{category="SMP"}
 ::

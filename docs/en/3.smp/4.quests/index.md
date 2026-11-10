@@ -3,6 +3,7 @@ verified: 0.21.0
 title: 'Quests'
 description: 'Daily and weekly quests, rewards and delivering.'
 icon: lucide:scroll-text
+categories: ['SMP']
 ---
 
 `/quests` shows your daily and weekly quests. Daily quests are on the left, weekly quests on the right. Each [realm](/smp/realms) has its own row. The colour of the slots shows the realm: green for the Overworld, red for the Nether.
@@ -69,3 +70,6 @@ New daily quests use the rewards above from 0.21.0. Quests already drawn keep th
 ## Commands
 
 - `/quests`: quests
+
+::navbox{category="SMP"}
+::
