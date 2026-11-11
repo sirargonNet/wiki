@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
 description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
 icon: lucide:scroll-text
@@ -29,7 +29,7 @@ Quests are daily and weekly tasks that earn you silver. Every player has the sam
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
-`/quests` and `/milestones` open immediately. If the game does not know your quests yet, the menu first shows **Loading …** and then fills in. If loading fails, you get the message **Your quests are currently unavailable.** The World Quest's estimated reward and top contributors refresh in the background. Until then the area shows **Loading …**.
+After you join SMP, the game loads your quests, milestones and the World Quest in the background. Once they are ready, `/quests` and `/milestones` open immediately with the complete menu. If you open it earlier, the menu waits for the running request. Changes refresh in the background. If loading fails, you get the message **Your quests are currently unavailable.**
 
 ## How quests are drawn
 

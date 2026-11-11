@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
@@ -29,7 +29,7 @@ Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle S
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
-`/quests` und `/milestones` öffnen sofort. Kennt das Spiel deine Quests noch nicht, zeigt das Menü zuerst **Wird geladen …** und füllt sich dann. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.** Die geschätzte Belohnung und die Top-Beitragenden der World Quest werden im Hintergrund erneuert. Solange zeigt der Bereich **Wird geladen …**.
+Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest im Hintergrund vor. Ist der Stand bereit, öffnen `/quests` und `/milestones` sofort mit dem vollständigen Menü. Öffnest du es früher, wartet das Menü auf die laufende Anfrage. Änderungen werden im Hintergrund nachgeladen. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
 
 ## So werden Quests gezogen
 
