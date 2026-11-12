@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
 description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
 icon: lucide:scroll-text
@@ -47,7 +47,7 @@ Each quest shows its difficulty, its goal, your progress, the reward and the tim
 
 ## Nether quests
 
-You get the Nether quests on top of your Overworld quests. You see them once you have entered the Nether for the first time. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
+You get the Nether quests on top of your Overworld quests. You see them the first time you actively play in the Nether, for example by mining a block or fighting. Just entering is not enough. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
 
 Your actions count only towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
 
@@ -292,7 +292,7 @@ Reward: 15,000 Silver.
 
 ### Why do I not see any Nether quests?
 
-Nether quests, milestones and the Nether skill tree appear once you have entered the Nether. Before that, `/quests`, `/milestones` and the skill tree do not show the Nether. When you first enter it, the chat tells you what is now unlocked. More under [Realms](/smp/realms).
+Nether quests, milestones and the Nether skill tree appear the first time you actively play in the Nether, for example by mining a block or fighting. Just entering or walking around is not enough. Before that, `/quests`, `/milestones` and the skill tree do not show the Nether. Once it is unlocked, the chat tells you once what is new. More under [Realms](/smp/realms).
 
 ::navbox{category="SMP"}
 ::
