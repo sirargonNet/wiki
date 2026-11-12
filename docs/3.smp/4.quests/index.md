@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
@@ -47,7 +47,7 @@ Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung
 
 ## Nether-Quests
 
-Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du den Nether zum ersten Mal betreten hast. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
+Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten reicht nicht. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
 
 Deine Aktionen zählen nur für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 
@@ -292,7 +292,7 @@ Belohnung: 15.000 Silber.
 
 ### Warum sehe ich keine Nether-Quests?
 
-Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du den Nether betreten hast. Vorher zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Beim ersten Betreten sagt dir der Chat, was neu freigeschaltet ist. Mehr unter [Realms](/smp/realms).
+Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten oder herumlaufen reicht nicht. Vorher zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Sobald er freigeschaltet ist, sagt dir der Chat einmal, was neu ist. Mehr unter [Realms](/smp/realms).
 
 ::navbox{category="SMP"}
 ::
