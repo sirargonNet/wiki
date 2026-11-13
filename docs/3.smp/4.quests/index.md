@@ -1,7 +1,7 @@
 ---
 verified: 0.27.0
 title: 'Quests'
-description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
+description: 'Tägliche und wöchentliche Quests in Oberwelt, Nether und End, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
 categories: ['SMP']
 ---
@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether)
+[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether), [End](/smp/realms#end)
 :::
 
 ::
@@ -44,6 +44,7 @@ Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest
 | :------------------------------- | :---------------------------------- | :--------------------------------- |
 | [Oberwelt](/smp/quests#oberwelt) | 5: 2 leichte, 2 mittlere, 1 schwere | 3: je 1 leichte, mittlere, schwere |
 | [Nether](/smp/quests#nether)     | 3: je 1 leichte, mittlere, schwere  | 3: je 1 leichte, mittlere, schwere |
+| [End](/smp/quests#end)           | 1 schwere                           | 1 schwere                          |
 
 ## Nether-Quests
 
@@ -203,7 +204,7 @@ Bei Erzen zählt auch die Tiefenschiefer-Variante.
 
 Hier stehen alle Quests, die im Nether kommen können. Jeden Tag kommen 3 davon, jede Woche 3. Du bekommst sie zusätzlich zu deinen [Oberwelt-Quests](/smp/quests#oberwelt). Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
 
-Nether-Quests siehst du, sobald du den Nether zum ersten Mal betreten hast. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+Nether-Quests siehst du, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
 
 Die Zahl in **Ziel** zeigt dir das Spiel auch im Menü.
 
@@ -283,6 +284,26 @@ Belohnung: 15.000 Silber.
 | Netheritfieber | Antiken Schutt abbauen                                                           |   16 |
 | Netherforscher | verschiedene besondere Nether-Bauwerke betreten, etwa Burgen, Dörfer oder Labore |    3 |
 | Lohenjäger     | Lohenruten abliefern                                                             |  208 |
+
+## End
+
+Im End kann jeden Tag eine schwere Quest kommen und jede Woche eine schwere. Du bekommst sie zusätzlich zu deinen Quests aus Oberwelt und Nether. End-Quests siehst du, sobald du im End zum ersten Mal aktiv spielst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+
+### Täglich, schwer
+
+Belohnung: 3.750 Silber.
+
+| Quest         | Aufgabe               | Ziel |
+| :------------ | :-------------------- | ---: |
+| Perlentaucher | Enderperlen abliefern |    8 |
+
+### Wöchentlich, schwer
+
+Belohnung: 15.000 Silber.
+
+| Quest    | Aufgabe                | Ziel |
+| :------- | :--------------------- | ---: |
+| Endstadt | eine Endstadt betreten |    1 |
 
 ## Befehle
 

@@ -1,7 +1,7 @@
 ---
 verified: 0.27.0
 title: 'Quests'
-description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
+description: 'Daily and weekly quests in the Overworld, the Nether and the End, rewards and delivering.'
 icon: lucide:scroll-text
 categories: ['SMP']
 ---
@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-[Overworld](/smp/realms#overworld), [Nether](/smp/realms#nether)
+[Overworld](/smp/realms#overworld), [Nether](/smp/realms#nether), [End](/smp/realms#end)
 :::
 
 ::
@@ -44,6 +44,7 @@ After you join SMP, the game loads your quests, milestones and the World Quest i
 | :--------------------------------- | :-------------------------- | :-------------------------- |
 | [Overworld](/smp/quests#overworld) | 5: 2 easy, 2 medium, 1 hard | 3: 1 easy, 1 medium, 1 hard |
 | [Nether](/smp/quests#nether)       | 3: 1 easy, 1 medium, 1 hard | 3: 1 easy, 1 medium, 1 hard |
+| [End](/smp/quests#end)             | 1 hard                      | 1 hard                      |
 
 ## Nether quests
 
@@ -203,7 +204,7 @@ For ores, the deepslate variant counts too.
 
 Here you find every quest that can appear in the Nether. 3 of them arrive each day, 3 each week. You get them on top of your [Overworld quests](/smp/quests#overworld). How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
 
-You see Nether quests once you have entered the Nether for the first time. They pay 25% more silver than Overworld quests.
+You see Nether quests once you play actively in the Nether for the first time, for example by breaking a block or fighting. They pay 25% more silver than Overworld quests.
 
 The number under **Target** is also shown in the menu.
 
@@ -283,6 +284,26 @@ Reward: 15,000 Silver.
 | Netherite Fever | mine ancient debris                                                         |     16 |
 | Nether Explorer | enter different special Nether buildings, such as castles, villages or labs |      3 |
 | Blaze hunter    | turn in blaze rods                                                          |    208 |
+
+## End
+
+In the End, one hard quest can arrive each day and one hard quest each week. You get them on top of your Overworld and Nether quests. You see End quests once you play actively in the End for the first time. They pay 25% more silver than Overworld quests.
+
+### Daily, hard
+
+Reward: 3,750 Silver.
+
+| Quest       | Task                 | Target |
+| :---------- | :------------------- | -----: |
+| Pearl diver | turn in ender pearls |      8 |
+
+### Weekly, hard
+
+Reward: 15,000 Silver.
+
+| Quest    | Task              | Target |
+| :------- | :---------------- | -----: |
+| End city | enter an End city |      1 |
 
 ## Commands
 
