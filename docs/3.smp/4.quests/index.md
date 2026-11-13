@@ -1,7 +1,7 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
-description: 'Tägliche und wöchentliche Quests in Oberwelt und Nether, Belohnungen und Abliefern.'
+description: 'Tägliche und wöchentliche Quests in Oberwelt, Nether und End, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
 categories: ['SMP']
 ---
@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether)
+[Oberwelt](/smp/realms#oberwelt), [Nether](/smp/realms#nether), [End](/smp/realms#end)
 :::
 
 ::
@@ -29,7 +29,7 @@ Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle S
 
 Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
-`/quests` und `/milestones` öffnen sofort. Kennt das Spiel deine Quests noch nicht, zeigt das Menü zuerst **Wird geladen …** und füllt sich dann. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.** Die geschätzte Belohnung und die Top-Beitragenden der World Quest werden im Hintergrund erneuert. Solange zeigt der Bereich **Wird geladen …**.
+Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest im Hintergrund vor. Ist der Stand bereit, öffnen `/quests` und `/milestones` sofort mit dem vollständigen Menü. Öffnest du es früher, wartet das Menü auf die laufende Anfrage. Änderungen werden im Hintergrund nachgeladen. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
 
 ## So werden Quests gezogen
 
@@ -44,10 +44,11 @@ Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung
 | :------------------------------- | :---------------------------------- | :--------------------------------- |
 | [Oberwelt](/smp/quests#oberwelt) | 5: 2 leichte, 2 mittlere, 1 schwere | 3: je 1 leichte, mittlere, schwere |
 | [Nether](/smp/quests#nether)     | 3: je 1 leichte, mittlere, schwere  | 3: je 1 leichte, mittlere, schwere |
+| [End](/smp/quests#end)           | 1 schwere                           | 1 schwere                          |
 
 ## Nether-Quests
 
-Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du den Nether zum ersten Mal betreten hast. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
+Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten reicht nicht. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
 
 Deine Aktionen zählen nur für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 
@@ -203,7 +204,7 @@ Bei Erzen zählt auch die Tiefenschiefer-Variante.
 
 Hier stehen alle Quests, die im Nether kommen können. Jeden Tag kommen 3 davon, jede Woche 3. Du bekommst sie zusätzlich zu deinen [Oberwelt-Quests](/smp/quests#oberwelt). Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
 
-Nether-Quests siehst du, sobald du den Nether zum ersten Mal betreten hast. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+Nether-Quests siehst du, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
 
 Die Zahl in **Ziel** zeigt dir das Spiel auch im Menü.
 
@@ -284,6 +285,26 @@ Belohnung: 15.000 Silber.
 | Netherforscher | verschiedene besondere Nether-Bauwerke betreten, etwa Burgen, Dörfer oder Labore |    3 |
 | Lohenjäger     | Lohenruten abliefern                                                             |  208 |
 
+## End
+
+Im End kann jeden Tag eine schwere Quest kommen und jede Woche eine schwere. Du bekommst sie zusätzlich zu deinen Quests aus Oberwelt und Nether. End-Quests siehst du, sobald du im End zum ersten Mal aktiv spielst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+
+### Täglich, schwer
+
+Belohnung: 3.750 Silber.
+
+| Quest         | Aufgabe               | Ziel |
+| :------------ | :-------------------- | ---: |
+| Perlentaucher | Enderperlen abliefern |    8 |
+
+### Wöchentlich, schwer
+
+Belohnung: 15.000 Silber.
+
+| Quest    | Aufgabe                | Ziel |
+| :------- | :--------------------- | ---: |
+| Endstadt | eine Endstadt betreten |    1 |
+
 ## Befehle
 
 - `/quests`: Quests
@@ -292,7 +313,7 @@ Belohnung: 15.000 Silber.
 
 ### Warum sehe ich keine Nether-Quests?
 
-Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du den Nether betreten hast. Vorher zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Beim ersten Betreten sagt dir der Chat, was neu freigeschaltet ist. Mehr unter [Realms](/smp/realms).
+Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten oder herumlaufen reicht nicht. Vorher zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Sobald er freigeschaltet ist, sagt dir der Chat einmal, was neu ist. Mehr unter [Realms](/smp/realms).
 
 ::navbox{category="SMP"}
 ::

@@ -1,7 +1,7 @@
 ---
-verified: 0.26.0
+verified: 0.27.0
 title: 'Quests'
-description: 'Daily and weekly quests in the Overworld and the Nether, rewards and delivering.'
+description: 'Daily and weekly quests in the Overworld, the Nether and the End, rewards and delivering.'
 icon: lucide:scroll-text
 categories: ['SMP']
 ---
@@ -13,7 +13,7 @@ categories: ['SMP']
 :::
 
 :::infobox-row{label="Realm" key="realm"}
-[Overworld](/smp/realms#overworld), [Nether](/smp/realms#nether)
+[Overworld](/smp/realms#overworld), [Nether](/smp/realms#nether), [End](/smp/realms#end)
 :::
 
 ::
@@ -29,7 +29,7 @@ Quests are daily and weekly tasks that earn you silver. Every player has the sam
 
 Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
 
-`/quests` and `/milestones` open immediately. If the game does not know your quests yet, the menu first shows **Loading …** and then fills in. If loading fails, you get the message **Your quests are currently unavailable.** The World Quest's estimated reward and top contributors refresh in the background. Until then the area shows **Loading …**.
+After you join SMP, the game loads your quests, milestones and the World Quest in the background. Once they are ready, `/quests` and `/milestones` open immediately with the complete menu. If you open it earlier, the menu waits for the running request. Changes refresh in the background. If loading fails, you get the message **Your quests are currently unavailable.**
 
 ## How quests are drawn
 
@@ -44,10 +44,11 @@ Each quest shows its difficulty, its goal, your progress, the reward and the tim
 | :--------------------------------- | :-------------------------- | :-------------------------- |
 | [Overworld](/smp/quests#overworld) | 5: 2 easy, 2 medium, 1 hard | 3: 1 easy, 1 medium, 1 hard |
 | [Nether](/smp/quests#nether)       | 3: 1 easy, 1 medium, 1 hard | 3: 1 easy, 1 medium, 1 hard |
+| [End](/smp/quests#end)             | 1 hard                      | 1 hard                      |
 
 ## Nether quests
 
-You get the Nether quests on top of your Overworld quests. You see them once you have entered the Nether for the first time. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
+You get the Nether quests on top of your Overworld quests. You see them the first time you actively play in the Nether, for example by mining a block or fighting. Just entering is not enough. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
 
 Your actions count only towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
 
@@ -203,7 +204,7 @@ For ores, the deepslate variant counts too.
 
 Here you find every quest that can appear in the Nether. 3 of them arrive each day, 3 each week. You get them on top of your [Overworld quests](/smp/quests#overworld). How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
 
-You see Nether quests once you have entered the Nether for the first time. They pay 25% more silver than Overworld quests.
+You see Nether quests once you play actively in the Nether for the first time, for example by breaking a block or fighting. They pay 25% more silver than Overworld quests.
 
 The number under **Target** is also shown in the menu.
 
@@ -284,6 +285,26 @@ Reward: 15,000 Silver.
 | Nether Explorer | enter different special Nether buildings, such as castles, villages or labs |      3 |
 | Blaze hunter    | turn in blaze rods                                                          |    208 |
 
+## End
+
+In the End, one hard quest can arrive each day and one hard quest each week. You get them on top of your Overworld and Nether quests. You see End quests once you play actively in the End for the first time. They pay 25% more silver than Overworld quests.
+
+### Daily, hard
+
+Reward: 3,750 Silver.
+
+| Quest       | Task                 | Target |
+| :---------- | :------------------- | -----: |
+| Pearl diver | turn in ender pearls |      8 |
+
+### Weekly, hard
+
+Reward: 15,000 Silver.
+
+| Quest    | Task              | Target |
+| :------- | :---------------- | -----: |
+| End city | enter an End city |      1 |
+
 ## Commands
 
 - `/quests`: quests
@@ -292,7 +313,7 @@ Reward: 15,000 Silver.
 
 ### Why do I not see any Nether quests?
 
-Nether quests, milestones and the Nether skill tree appear once you have entered the Nether. Before that, `/quests`, `/milestones` and the skill tree do not show the Nether. When you first enter it, the chat tells you what is now unlocked. More under [Realms](/smp/realms).
+Nether quests, milestones and the Nether skill tree appear the first time you actively play in the Nether, for example by mining a block or fighting. Just entering or walking around is not enough. Before that, `/quests`, `/milestones` and the skill tree do not show the Nether. Once it is unlocked, the chat tells you once what is new. More under [Realms](/smp/realms).
 
 ::navbox{category="SMP"}
 ::
