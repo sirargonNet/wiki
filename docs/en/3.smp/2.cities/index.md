@@ -66,6 +66,8 @@ Distances are measured horizontally from border to border. Chunks of your own ci
 - to other cities: at least 256 blocks
 - to outposts, including your own: at least 384 blocks
 - to sold plots of other cities: at least 256 blocks
+
+Strongholds belong to everyone. Nothing can be claimed on a stronghold or the chunk around it, neither a camp nor a city or an outpost. If your land was already there, it was released and the price you paid was refunded. Built blocks stay and become wilderness.
 - to camps: at least 64 blocks
 
 Cities exist only in the Overworld.
@@ -95,7 +97,7 @@ Under **Land management**, **Release chunk** gives up the chunk you stand in. Yo
 
 City ranks decide who may do what, for example build, manage plots, invite residents or use the treasury. See [Government & ranks](/smp/cities/government) and [Rights & plots](/smp/cities/rights).
 
-Inside the city the server protects your builds. TNT and PvP are off until the city turns them on. When protection refuses an action, the message names the reason, for example "Missing right: {right} in {area}."
+Inside the city the server protects your builds. TNT and PvP are off until the city turns them on. While the [dragon egg](/smp/dragon-egg#open-egg) is open in the city, PvP is on for everyone there. When protection refuses an action, the message names the reason, for example "Missing right: {right} in {area}."
 
 ## Treasury
 
