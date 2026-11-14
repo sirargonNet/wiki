@@ -95,7 +95,7 @@ Unter **Gebietsverwaltung** gibt **Chunk freigeben** den Chunk an deinem Standor
 
 Stadt-Ränge legen fest, wer was darf, zum Beispiel bauen, Plots verwalten, Bewohner einladen oder die Kasse nutzen. Mehr unter [Regierung & Ränge](/smp/cities/government) und [Rechte & Plots](/smp/cities/rights).
 
-In der Stadt schützt der Server eure Bauten. TNT und PvP sind aus, bis die Stadt sie einschaltet. Lehnt der Schutz eine Aktion ab, nennt die Meldung den Grund, zum Beispiel „Fehlendes Recht: {Recht} in {Gebiet}.“
+In der Stadt schützt der Server eure Bauten. TNT und PvP sind aus, bis die Stadt sie einschaltet. Ist das [Drachenei](/smp/dragon-egg#offenes-ei) in der Stadt offen, ist dort PvP für alle an. Lehnt der Schutz eine Aktion ab, nennt die Meldung den Grund, zum Beispiel „Fehlendes Recht: {Recht} in {Gebiet}.“
 
 ## Stadtkasse
 

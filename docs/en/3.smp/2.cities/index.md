@@ -95,7 +95,7 @@ Under **Land management**, **Release chunk** gives up the chunk you stand in. Yo
 
 City ranks decide who may do what, for example build, manage plots, invite residents or use the treasury. See [Government & ranks](/smp/cities/government) and [Rights & plots](/smp/cities/rights).
 
-Inside the city the server protects your builds. TNT and PvP are off until the city turns them on. When protection refuses an action, the message names the reason, for example "Missing right: {right} in {area}."
+Inside the city the server protects your builds. TNT and PvP are off until the city turns them on. While the [dragon egg](/smp/dragon-egg#open-egg) is open in the city, PvP is on for everyone there. When protection refuses an action, the message names the reason, for example "Missing right: {right} in {area}."
 
 ## Treasury
 
