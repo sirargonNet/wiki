@@ -66,6 +66,8 @@ Distances are measured horizontally from border to border. Chunks of your own ci
 - to other cities: at least 256 blocks
 - to outposts, including your own: at least 384 blocks
 - to sold plots of other cities: at least 256 blocks
+
+Strongholds belong to everyone. Nothing can be claimed on a stronghold or the chunk around it, neither a camp nor a city or an outpost. If your land was already there, it was released and the price you paid was refunded. Built blocks stay and become wilderness.
 - to camps: at least 64 blocks
 
 Cities exist only in the Overworld.

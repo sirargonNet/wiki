@@ -66,6 +66,8 @@ Gemessen wird waagerecht von Grenze zu Grenze. Eigene Chunks deiner Stadt grenze
 - zu anderen Städten: mindestens 256 Blöcke
 - zu Außenposten, auch deinen eigenen: mindestens 384 Blöcke
 - zu verkauften Plots anderer Städte: mindestens 256 Blöcke
+
+Festungen gehören allen. Auf einer Festung und dem Chunk um sie herum lässt sich nichts claimen, weder ein Camp noch eine Stadt oder ein Außenposten. Lag dein Land schon dort, wurde es freigegeben und der bezahlte Preis zurückerstattet. Gebaute Blöcke bleiben stehen und gehören zur Wildnis.
 - zu Camps: mindestens 64 Blöcke
 
 Städte gibt es nur in der Oberwelt.
