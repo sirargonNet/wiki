@@ -3,6 +3,7 @@ verified: 0.26.0
 title: 'SMP'
 description: 'Survival with camps, cities, trading, quests and skills.'
 icon: lucide:trees
+categories: ['Commands']
 ---
 
 ::infobox{title="SMP"}
@@ -21,7 +22,7 @@ icon: lucide:trees
 
 ::
 
-**SMP Season 10** is one survival world for everyone: find your place, build your home and trade with your neighbours. The SMP is in beta. To join, you need a [Discord link](/guides/account#discord). There are no homes or warps. You protect your builds with a [camp](/smp/camps) or in a [city](/smp/cities).
+**SMP Season 10** is one survival world for everyone: find your spot, build a home and trade with your neighbours. The SMP is in beta.
 
 ## Join
 
@@ -30,35 +31,33 @@ icon: lucide:trees
 3. Accept the resource pack. While it loads, you are protected.
 4. Confirm the SMP rules.
 
-If an ender pearl you threw earlier lands during this protection, for example in a stasis chamber, you land there once the protection ends. Only the latest landing counts. It waits as long as you stay online, however long the protection lasts. It is dropped if you log out or the landing spot is not free by then.
-
-If you leave the Discord, you get a warning. If you do not rejoin in time, you return to the lobby.
+If you leave the Discord, you get a warning. Rejoin in time, or you're sent back to the lobby.
 
 ## Basics
 
 - Difficulty: hard
 - There are no homes and no warps. You travel on foot, by horse, boat or minecart.
-- New here? `/rtp` takes you to a safe place in the wilderness for free, see [Starter teleport](/smp#starter-teleport).
+- New here? The [starter teleport](/smp#starter-teleport) `/rtp` takes you to a safe place in the wilderness for free.
 - You protect your builds with a [camp](/smp/camps) or in a [city](/smp/cities).
 - Your sidebar shows your silver and your SMP level.
-- Villagers do not trade, see [Villagers](/smp/mechanics#villagers).
-- The world has three realms: Overworld, Nether and End. The Nether is open, see [Realms](/smp/realms).
-- Some values differ from vanilla, for example there is no locator bar and minecarts go faster, see [Changed mechanics](/smp/mechanics).
+- [Villagers](/smp/mechanics#villagers) do not trade.
+- The world has three [realms](/smp/realms): Overworld, Nether and End. The Nether is open.
+- Some values differ from vanilla. For example, there is no locator bar, and minecarts go faster. More under [Changed mechanics](/smp/mechanics).
 
-Read the [rules](/reference/rules) for the SMP. Litematica is allowed, but automatic placement such as Easy Place or a printer is forbidden, see [Mods](/reference/mods).
+Read through the [rules](/reference/rules) for the SMP. You may use Litematica, but automatic placement such as Easy Place or a printer is forbidden. More under [Mods](/reference/mods).
 
 ## First steps in the SMP
 
-1. Head out and find a place. Or use `/rtp`, the starter teleport.
+1. Head out and find a place, or use the starter teleport `/rtp`.
 2. Create a camp with `/camp` so your builds are protected.
 3. Check `/quests` for today's tasks.
 4. Open `/skills` and spend your first skill point once you have it.
 
 ## Starter teleport
 
-`/rtp` takes you to a safe place in the wilderness. It costs nothing.
+`/rtp` takes you to a safe place in the wilderness for free. A few limits apply:
 
-- It only works while you have no home: no camp, no city membership and no owned or rented plot.
+- It only works while you have no home yet: no camp, no city membership and no owned or rented plot.
 - After 10 hours of SMP play time the starter teleport is locked for good.
 - You can use it at most three times per hour.
 - It does not work during or shortly after a fight.
@@ -81,7 +80,11 @@ There are no homes or warps. You travel on foot, by horse, boat or minecart. New
 
 ### May I use Litematica?
 
-Yes. Schematics, the preview, material lists and the verifier are allowed. Automatic placement is forbidden: the Easy Place mode, printer mods and add-ons and any other mod that places blocks by itself. How to turn both off: [Turn off Easy Place and printers](/reference/mods#turn-off-easy-place-and-printers).
+Yes. Schematics, the preview, material lists and the verifier are allowed. Automatic placement is forbidden: the Easy Place mode, printer mods and add-ons and any other mod that places blocks by itself. How to switch both off is explained under [Turn off Easy Place and printers](/reference/mods#turn-off-easy-place-and-printers).
+
+### What happens to an ender pearl while the resource pack loads?
+
+You're protected while the pack loads. If an ender pearl you threw earlier lands during that time, for example in a stasis chamber, you land there once the protection ends. Only the latest landing counts. It waits as long as you stay online, however long the protection lasts. If you log out or the landing spot is not free by then, it is dropped.
 
 ::page-cards
 ::

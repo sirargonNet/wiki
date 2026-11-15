@@ -3,7 +3,7 @@ verified: 0.27.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt, Nether und End, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
-categories: ['SMP']
+categories: ['SMP', 'Befehle', 'Belohnungen']
 ---
 
 ::infobox{title="Quests"}
@@ -18,18 +18,16 @@ categories: ['SMP']
 
 ::
 
-Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Alle Spieler haben dieselben Quests. `/quests` zeigt sie, jedes [Realm](/smp/realms) hat eine eigene Reihe. Dazu kommt die gemeinsame [World Quest](/smp/quests/world-quest).
+Quests sind tägliche und wöchentliche Aufgaben, die dir Silber bringen. Du findest sie unter `/quests`, und dazu kommt noch die gemeinsame [World Quest](/smp/quests/world-quest).
 
 ::page-cards
 ::
 
 ## Quest-Menü
 
-`/quests` zeigt deine täglichen und wöchentlichen Quests. Links stehen die Tagesquests, rechts die Wochenquests. Jedes [Realm](/smp/realms) hat eine eigene Reihe. Die Farbe der Felder zeigt das Realm: grün die Oberwelt, rot der Nether.
+In `/quests` stehen links deine Tagesquests und rechts deine Wochenquests. Jedes [Realm](/smp/realms) hat eine eigene Reihe, und an der Farbe der Felder erkennst du, welches: grün ist die Oberwelt, rot der Nether.
 
-Jede Quest zeigt ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
-
-Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest im Hintergrund vor. Ist der Stand bereit, öffnen `/quests` und `/milestones` sofort mit dem vollständigen Menü. Öffnest du es früher, wartet das Menü auf die laufende Anfrage. Änderungen werden im Hintergrund nachgeladen. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
+Bei jeder Quest siehst du ihre Schwierigkeit, ihr Ziel, deinen Fortschritt, die Belohnung und die Zeit bis zum Ende.
 
 ## So werden Quests gezogen
 
@@ -38,7 +36,7 @@ Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest
 - Wochenquests kommen jeden Montag um Mitternacht.
 - Jede Art von Quest, zum Beispiel Holz oder Kampf, kommt pro Tag und Realm möglichst nur einmal vor.
 - Zwei Quests haben nie dasselbe Ziel.
-- Dieselbe Tagesquest kommt in der Regel erst nach einer Woche wieder. Dieselbe Wochenquest kommt in der Regel erst nach vier Wochen wieder.
+- Dieselbe Tagesquest kommt in der Regel erst nach einer Woche wieder, dieselbe Wochenquest in der Regel erst nach vier Wochen.
 
 | Realm                            | Tagesquests                         | Wochenquests                       |
 | :------------------------------- | :---------------------------------- | :--------------------------------- |
@@ -48,17 +46,17 @@ Nach dem SMP-Join lädt das Spiel deine Quests, Meilensteine und die World Quest
 
 ## Nether-Quests
 
-Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Du siehst sie, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten reicht nicht. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
+Die Nether-Quests bekommst du zusätzlich zu deinen Oberwelt-Quests. Sie erscheinen, sobald du im Nether zum ersten Mal aktiv spielst, also zum Beispiel einen Block abbaust oder kämpfst. Nur hineingehen reicht nicht. Dann bekommst du die Nachricht **Du hast den Nether betreten: Neue Nether-Quests sind jetzt freigeschaltet.** Ab da hat `/quests` eine Reihe für den Nether.
 
-Deine Aktionen zählen nur für Quests im passenden Realm. Eine Aktion im Nether bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
+Was du tust, zählt nur für Quests im passenden Realm. Was du im Nether machst, bringt dir zum Beispiel keinen Fortschritt für eine Oberwelt-Quest.
 
 ## Ziel des Tages
 
-Manche Quests wählen ein Ziel des Tages, zum Beispiel eine bestimmte Holzart. Die Quest zeigt es dir als **Heute: …**. Wie viel du brauchst, hängt vom Ziel ab.
+Manche Quests wählen ein Ziel des Tages, zum Beispiel eine bestimmte Holzart. Du siehst es in der Quest als **Heute: …**, und wie viel du brauchst, hängt vom Ziel ab.
 
 ## Kills
 
-Bei Kill-Quests zählt ein Mob für den Spieler, der ihm den meisten Schaden gemacht hat. Bei Gleichstand zählt er für den, der zuletzt getroffen hat. So zählen Kills auch, wenn ihr zusammen kämpft.
+Bei Kill-Quests zählt ein Mob für den Spieler, der ihm den meisten Schaden gemacht hat, bei Gleichstand für den, der zuletzt getroffen hat. So zählen Kills auch dann, wenn ihr zusammen kämpft.
 
 ## Belohnungen
 
@@ -67,7 +65,7 @@ Bei Kill-Quests zählt ein Mob für den Spieler, der ihm den meisten Schaden gem
 | täglich     | 1.000 Silber | 2.000 Silber |  3.000 Silber |
 | wöchentlich | 3.000 Silber | 6.000 Silber | 12.000 Silber |
 
-Tagesquests bringen seit dem 6. November 2026 mindestens diese Beträge. Hast du für eine Tagesquest ab diesem Tag weniger bekommen, zahlt das Spiel die Differenz nach. Du bekommst dann die Nachricht **Daily-Nachzahlung**.
+Seit dem 6. November 2026 bringen Tagesquests mindestens diese Beträge. Hast du ab diesem Tag für eine Tagesquest weniger bekommen, zahlt dir das Spiel die Differenz nach, und du bekommst die Nachricht **Daily-Nachzahlung**.
 
 Quests im Nether bringen 25 % mehr:
 
@@ -82,17 +80,17 @@ Bei manchen Quests lieferst du Items ab, zum Beispiel Brot oder Eisenbarren.
 
 1. Öffne `/quests`.
 2. Klick bei der Quest auf **Zum Abliefern auswählen**.
-3. Klick passende Items in deinem Inventar an. Sie werden verbraucht.
+3. Klick passende Items in deinem Inventar an. Sie werden dabei verbraucht.
 
 ## World Quest
 
-Zusätzlich gibt es eine gemeinsame **World Quest**. Öffne `/quests`. Unter deinen persönlichen Quests steht direkt der Bereich **World Quest**. Alle helfen mit Rohstoffen. Die [Anleitung und Belohnungen](/smp/quests/world-quest) erklären die Abgabe.
+Zusätzlich gibt es eine gemeinsame **World Quest**, bei der alle mit Rohstoffen helfen. Den Bereich **World Quest** findest du in `/quests` direkt unter deinen persönlichen Quests. Wie die Abgabe funktioniert, erklären [Anleitung und Belohnungen](/smp/quests/world-quest).
 
 ## Oberwelt
 
-Hier stehen alle Quests, die in der Oberwelt kommen können. Jeden Tag kommen 5 davon, jede Woche 3. Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
+Hier stehen alle Quests, die in der Oberwelt kommen können: jeden Tag 5 davon, jede Woche 3. Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
 
-Die Zahl in **Ziel** zeigt dir das Spiel auch im Menü. Bei einem Ziel des Tages hängt die Zahl davon ab, was heute gezogen wurde.
+Die Zahl in **Ziel** zeigt dir das Spiel auch im Menü. Bei einem Ziel des Tages hängt sie davon ab, was heute gezogen wurde.
 
 - Holz zählt nur von natürlichen Stämmen.
 - Feldfrüchte zählen nur reif.
@@ -202,9 +200,9 @@ Bei Erzen zählt auch die Tiefenschiefer-Variante.
 
 ## Nether
 
-Hier stehen alle Quests, die im Nether kommen können. Jeden Tag kommen 3 davon, jede Woche 3. Du bekommst sie zusätzlich zu deinen [Oberwelt-Quests](/smp/quests#oberwelt). Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
+Hier stehen alle Quests, die im Nether kommen können: jeden Tag 3 davon, jede Woche 3. Du bekommst sie zusätzlich zu deinen [Oberwelt-Quests](/smp/quests#oberwelt). Wie sie gezogen werden, steht unter [So werden Quests gezogen](/smp/quests#so-werden-quests-gezogen).
 
-Nether-Quests siehst du, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+Nether-Quests siehst du, sobald du im Nether zum ersten Mal aktiv spielst, also zum Beispiel einen Block abbaust oder kämpfst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
 
 Die Zahl in **Ziel** zeigt dir das Spiel auch im Menü.
 
@@ -287,7 +285,7 @@ Belohnung: 15.000 Silber.
 
 ## End
 
-Im End kann jeden Tag eine schwere Quest kommen und jede Woche eine schwere. Du bekommst sie zusätzlich zu deinen Quests aus Oberwelt und Nether. End-Quests siehst du, sobald du im End zum ersten Mal aktiv spielst. Sie bringen 25 % mehr Silber als Quests in der Oberwelt.
+Im End kann jeden Tag eine schwere Quest kommen und jede Woche ebenfalls eine schwere, zusätzlich zu deinen Quests aus Oberwelt und Nether. End-Quests siehst du, sobald du im End zum ersten Mal aktiv spielst, und sie bringen 25 % mehr Silber als Quests in der Oberwelt.
 
 ### Täglich, schwer
 
@@ -313,7 +311,11 @@ Belohnung: 15.000 Silber.
 
 ### Warum sehe ich keine Nether-Quests?
 
-Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten oder herumlaufen reicht nicht. Vorher zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Sobald er freigeschaltet ist, sagt dir der Chat einmal, was neu ist. Mehr unter [Realms](/smp/realms).
+Nether-Quests, -Meilensteine und der Nether-Skillbaum erscheinen, sobald du im Nether zum ersten Mal aktiv spielst, zum Beispiel einen Block abbaust oder kämpfst. Nur betreten oder herumlaufen reicht nicht. Bis dahin zeigen `/quests`, `/milestones` und der Skillbaum den Nether nicht. Sobald er freigeschaltet ist, sagt dir der Chat einmal, was neu ist. Mehr unter [Realms](/smp/realms).
+
+### Warum öffnet sich das Quest-Menü nicht sofort?
+
+Sobald du ins SMP kommst, lädt das Spiel deine Quests, Meilensteine und die World Quest im Hintergrund vor. Ist alles bereit, öffnen `/quests` und `/milestones` sofort mit dem vollständigen Menü. Öffnest du es früher, wartet das Menü, bis die laufende Anfrage fertig ist. Änderungen lädt es im Hintergrund nach. Klappt das Laden nicht, bekommst du die Nachricht **Deine Quests sind gerade nicht erreichbar.**
 
 ::navbox{category="SMP"}
 ::
