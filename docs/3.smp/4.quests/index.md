@@ -3,7 +3,7 @@ verified: 0.27.0
 title: 'Quests'
 description: 'Tägliche und wöchentliche Quests in Oberwelt, Nether und End, Belohnungen und Abliefern.'
 icon: lucide:scroll-text
-categories: ['SMP']
+categories: ['SMP', 'Befehle', 'Belohnungen']
 ---
 
 ::infobox{title="Quests"}

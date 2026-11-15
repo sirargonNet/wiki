@@ -3,7 +3,7 @@ verified: 0.26.0
 title: 'Cities'
 description: 'Build, manage and rise through eight tiers together, with treasury and Claims 2.0.'
 icon: lucide:castle
-categories: ['SMP']
+categories: ['SMP', 'Commands', 'Economy']
 ---
 
 ::infobox{title="Cities"}

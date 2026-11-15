@@ -3,6 +3,7 @@ verified: 0.26.0
 title: 'SMP'
 description: 'Survival mit Camps, Städten, Handel, Quests und Skills.'
 icon: lucide:trees
+categories: ['Befehle']
 ---
 
 ::infobox{title="SMP"}

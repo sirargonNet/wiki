@@ -3,7 +3,7 @@ verified: 0.26.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen, mit Stadtkasse und Claims 2.0.'
 icon: lucide:castle
-categories: ['SMP']
+categories: ['SMP', 'Befehle', 'Wirtschaft']
 ---
 
 ::infobox{title="Städte"}

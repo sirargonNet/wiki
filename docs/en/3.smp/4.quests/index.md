@@ -3,7 +3,7 @@ verified: 0.27.0
 title: 'Quests'
 description: 'Daily and weekly quests in the Overworld, the Nether and the End, rewards and delivering.'
 icon: lucide:scroll-text
-categories: ['SMP']
+categories: ['SMP', 'Commands', 'Rewards']
 ---
 
 ::infobox{title="Quests"}
