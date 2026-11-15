@@ -29,7 +29,7 @@ Network level 5
 A city is a shared territory made of whole chunks in the Overworld. You manage it together, assign ranks, hold elections and can sell or rent out plots. To found one, you need network level 5 and 100,000 silver. Through your play time the city rises through eight [tiers](/smp/cities/tiers), from Clearing to Metropolis.
 
 ::callout{type="info" title="Claims 2.0"}
-Since version 0.24.0 cities grow through tiers instead of bought capacity. There is no upkeep any more. If you founded a city before, read [Claims 2.0](/smp/cities#claims-20).
+Since version 0.24.0 cities grow through tiers instead of bought capacity. There is no upkeep any more. Older cities are all in the tier system now too, see [Claims 2.0](/smp/cities#claims-20).
 ::
 
 ## Found a city
@@ -68,6 +68,7 @@ Distances are measured horizontally from border to border. Chunks of your own ci
 - to sold plots of other cities: at least 256 blocks
 
 Strongholds belong to everyone. Nothing can be claimed on a stronghold or the chunk around it, neither a camp nor a city or an outpost. If your land was already there, it was released and the price you paid was refunded. Built blocks stay and become wilderness.
+
 - to camps: at least 64 blocks
 
 Cities exist only in the Overworld.
@@ -113,9 +114,9 @@ Every city has a treasury. Anyone with the right deposits or withdraws Silver. C
 | further outpost chunk, Overworld |           20,000 Silver |
 | further outpost chunk, Nether    |           24,000 Silver |
 
-These prices apply to cities in the tier system. Older cities that have not migrated pay the old prices, see [Claims 2.0](#claims-20). It is paid right when you claim. See [Outposts](/smp/cities/outposts). The founder pays the founding price personally, see [Found a city](/smp/cities#found-a-city).
+It is paid right when you claim. See [Outposts](/smp/cities/outposts). The founder pays the founding price personally, see [Found a city](/smp/cities#found-a-city).
 
-Cities in the tier system pay no upkeep. Your tier rises through play time and [tier projects](/smp/cities/tiers), not through Silver.
+Cities pay no upkeep. Your tier rises through play time and [tier projects](/smp/cities/tiers), not through Silver.
 
 ### Treasury history
 
@@ -133,10 +134,6 @@ Sold plots stay protected for their owners, even when the city is frozen.
 
 The head can dissolve the city.
 
-### Older cities
-
-For cities that have not migrated to the tier system yet, upkeep is suspended. What else applies to them is under [Claims 2.0](/smp/cities#claims-20).
-
 ## Frozen cities
 
 When no member has been active for a longer time, the city freezes. Members with a linked Discord get two warnings by direct message before that, with the date.
@@ -146,7 +143,7 @@ When no member has been active for a longer time, the city freezes. Members with
 - When a member is active again, the city thaws for free.
 
 ::callout{type="info"}
-For now, abandoned tier cities stay frozen and protected, without ruin, decay or takeover. This may change.
+For now, abandoned cities stay frozen and protected, without ruin, decay or takeover. This may change.
 ::
 
 ## Stuck
@@ -165,109 +162,19 @@ If you are stuck on someone else's land, `/unstuck` helps:
 
 ## Claims 2.0
 
-::callout{type="info" title="Claims 2.0 for existing cities"}
-Version 0.24.0 brought **Claims 2.0**. Cities now grow through [tiers](/smp/cities/tiers) instead of bought capacity and upkeep. New cities start in the tier system right away. Existing cities keep their old rules until their head migrates.
-::
+Version 0.24.0 brought **Claims 2.0**: since then cities grow through [tiers](/smp/cities/tiers) instead of bought capacity and upkeep. At first, older cities could choose whether to switch. The old system is gone now. Every city that had not switched yet was moved into the tier system automatically.
 
-::callout{type="info" title="Claims 1.x and Claims 2.0 compared"}
+::callout{type="info" title="What the automatic switch did"}
 
-| Topic            | Claims 1.x (older cities)                                             | Claims 2.0 (tier system)                                     |
-| :--------------- | :-------------------------------------------------------------------- | :----------------------------------------------------------- |
-| Growth           | buy chunk capacity, 10,000 Silver for 4 chunks                        | 8 tiers through city hours and tier projects                 |
-| Chunk limit      | starting size plus capacity, limited by the number of residents       | fixed per tier, 24 to 640 chunks                             |
-| New chunk        | from bought capacity                                                  | 16,000 Silver when you claim it                              |
-| Releasing chunks | not possible                                                          | possible, without refund                                     |
-| Outposts         | old prices, at most 4 chunks                                          | bought one by one, number and size by tier                   |
-| Upkeep           | suspended                                                             | none                                                         |
-| Ranks            | Head, Assistant, Honorary citizen, Citizen, Visitor; at most 10 ranks | Head, Councillor, Resident, Guest; plus 5 to 14 custom ranks |
-| City council     | head elected directly                                                 | council of 3 to 9 seats that elects its chair                |
-| Dominion         | City lord, no uprising                                                | Ruler, uprising and succession on inactivity                 |
-| Inactive city    | old ruins stay ruins                                                  | frozen and protected, without ruin or takeover               |
-
-**Every** city already has: fine [rights](/smp/cities/rights), city hard locks, environment and cosmetics settings, rights for single players, co-managers, the city zone, the treasury history and messages that name the reason.
-::
-
-::callout{type="info" title="What changed for older cities right away"}
-
-- **Upkeep:** upkeep is suspended. Outstanding arrears have been forgiven. Frozen cities in arrears are active again, and their rents run again.
-- **Ruins:** cities that were already a ruin stay a ruin. Whoever takes over a ruin for 1,500 Silver gets a city in the tier system at tier 1. The land is kept.
-- **Nations and alliances** are paused, see [Nations and alliances](/smp/cities/nations). Their data and treasury are kept.
-- **Plots and camps** kept their previous rights. They now appear as fixed settings in the new right groups.
+- **Free of charge:** The city treasury paid nothing and got nothing back, even if it could not have covered the old price difference. Outstanding arrears were dropped.
+- **Tier:** Each city landed on the tier its current members earned with their active SMP play time since they joined it. The Metropolis still needs 15 members. From the switch on you collect new city hours.
+- **What stays:** all your land, even above your tier's limit, every plot, sale and rent contract, plot co-residents, the treasury and the city form. If your land is above the limit, you can claim again once you are below it or rise a tier.
+- **What starts over:** Custom ranks are deleted. Head, resident and guest have their default rights, and in a council the councillor too. Every member except the head is a resident. Set up your ranks again under [Government & ranks](/smp/cities/government).
   ::
 
-::callout{type="info" title="What older cities keep without migrating"}
-If you do not migrate, everything stays as before:
-
-- **Buy chunk capacity:** 2,500 Silver per chunk, so 10,000 Silver per expansion of 4 chunks
-- The smaller of two limits applies: bought capacity, or the starting size plus 4 chunks per 2 residents.
-- the old ranks with at most ten city ranks
-- the old outpost rules: a new outpost costs 25,000 Silver
-
-| Residents | max chunks (start 25) | max chunks (start 16) |
-| --------- | --------------------- | --------------------- |
-| 1         | 25                    | 16                    |
-| 2–3       | 29                    | 20                    |
-| 4–5       | 33                    | 24                    |
-| 10–11     | 45                    | 36                    |
-| 20–21     | 65                    | 56                    |
-
-Tiers, tier projects, releasing single chunks, council seats, uprising and succession exist only in the tier system. If you try them in an older city, the game says: "This city must migrate to the tier system first."
+::callout{type="info" title="Frozen cities, ruins and caretaker governments"}
+Cities that the old rules had frozen or turned into a ruin, and cities run by a caretaker government, entered the tier system frozen. They stay [frozen and protected](#frozen-cities), just like abandoned cities in the tier system. As soon as a member is active again, the city thaws for free. A ruin has no members left, so it stays frozen. Ruins can no longer be taken over.
 ::
-
-::callout{type="info" title="Migrate to the tier system"}
-Migrating is optional. There is no deadline. It cannot be undone, though.
-
-1. As the head, open `/city`, then **Management** and **Migrate**.
-2. Check the preview:
-   - "Target tier {tier}: {name}" and your city hours
-   - "Custom ranks and city rights will be reset."
-   - "Land and plot contracts stay unchanged."
-   - the price or "Refund to the city treasury: {amount} Silver."
-3. Confirm.
-
-Only the head may migrate, not a caretaker. The city must not be frozen.
-
-**Which tier you land on**
-
-The target tier depends on the active SMP play time your current members collected since they joined the city. You land directly on that tier, without the projects of the tiers before. A Metropolis still needs 15 members. After migrating, you collect new city hours from the moment of the migration.
-
-**What migrating costs**
-
-The game compares the value of your land in the tier system with what your city treasury has already paid.
-
-- **Land value:** every chunk above 16 costs 16,000 Silver. Outpost chunks count at 20,000 Silver in the Overworld and 24,000 Silver in the Nether.
-- **Credited** is everything the city treasury ever paid for expansions and outposts.
-- If the value is higher, the city treasury pays the difference. If Silver is missing, the game says: "The city treasury is missing {amount} Silver for migration."
-- If you paid more, the city treasury gets the surplus back.
-
-The treasury history lists the booking as "City tier migration".
-
-**What stays and what starts over**
-
-What stays:
-
-- all your land, even above your tier's limit. Then you can only claim again once you are below the limit or rise a tier.
-- all plots, purchase and rental contracts and plot residents
-- the city treasury and the city form
-
-What starts over:
-
-- All custom ranks are deleted.
-- The fixed ranks Head, Resident and Guest get their default rights. A city council also gets the Councillor.
-- Every member except the head becomes a Resident.
-- Rights that nations or alliances had in the city are removed.
-- Running city elections are ended.
-
-Create your custom ranks again afterwards, see [Government & ranks](/smp/cities/government).
-::
-
-::callout{type="info" title="Checklist before migrating"}
-
-- [ ] Checked the preview: target tier and price
-- [ ] Enough Silver in the city treasury
-- [ ] Warned members that ranks start over
-- [ ] Noted custom ranks and their rights to create them again
-      ::
 
 ## Commands
 
