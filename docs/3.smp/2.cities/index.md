@@ -173,7 +173,7 @@ Neu gestartet sind dagegen die Ränge:
 - Eure eigenen Ränge sind gelöscht. Legt sie unter [Regierung & Ränge](/smp/cities/government) neu an.
 - Oberhaupt, Bewohner und Gast haben wieder ihre Standardrechte, im Stadtrat auch das Ratsmitglied.
 - Alle Mitglieder außer dem Oberhaupt sind jetzt Bewohner.
-- Laufende Stadtwahlen wurden beendet.
+- Laufende Stadtwahlen wurden beendet, außer in Städten unter kommissarischer Leitung.
 
 ## Befehle
 

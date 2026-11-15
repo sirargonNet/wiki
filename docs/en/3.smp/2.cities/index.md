@@ -173,7 +173,7 @@ The ranks, on the other hand, started over:
 - Your custom ranks were deleted. Set them up again under [Government & ranks](/smp/cities/government).
 - Head, Resident and Guest have their default rights again, and so does the Councillor in a city council.
 - Every member except the head is now a Resident.
-- Running city elections were ended.
+- Running city elections were ended, except in cities led by a caretaker.
 
 ## Commands
 
