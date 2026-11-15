@@ -5,20 +5,20 @@ description: 'Your own plots, every block and WorldEdit.'
 icon: lucide:brick-wall
 ---
 
-Your plot, every block: on Creative you are always in creative mode and build on your own [plots](/creative/plots). Try out ideas or build what you lack the materials for in survival. [WorldEdit](/creative/worldedit) makes it faster on your plot. Creative is in beta.
+Your plot, every block: on Creative you are always in creative mode and build on your own [plots](/creative/plots). Try out ideas, or build the things you don't have the materials for in survival. [WorldEdit](/creative/worldedit) gets it done faster on your plot. Creative is in beta.
 
 ## The world
 
 - You are always in creative mode.
-- There are no monsters, no PvP, no weather and it is always noon.
-- There is only the Overworld, no Nether and no End.
-- A plot is 128 × 128 blocks. Between the plots run 7-block-wide roads.
-- Free plots have a border of mud brick slabs, claimed ones of brick slabs.
-- Spawn eggs place mobs on your plot, up to a cap per plot. They stay after a restart. There is no breeding and there are no spawners.
-- Plants do not grow by themselves, ice and snow do not melt.
+- There are no monsters, no PvP and no weather, and it's always noon.
+- There's only the Overworld, with no Nether and no End.
+- Each plot is 128 × 128 blocks, with 7-block-wide roads between them.
+- You can tell a free plot by its border of mud brick slabs; a claimed one has a border of brick slabs.
+- Use spawn eggs to put mobs on your plot, up to a cap per plot. The mobs are still there after a restart. There is no breeding and there are no spawners.
+- Plants don't grow by themselves, and ice and snow don't melt.
 - `/stats` shows your statistics.
 
-Read the [rules](/reference/rules) for Creative.
+Before you start, read the [rules](/reference/rules) for Creative.
 
 ::page-cards
 ::
@@ -27,8 +27,8 @@ Read the [rules](/reference/rules) for Creative.
 
 ### Are there monsters or PvP?
 
-No. It is always noon and there is no weather. With [flags](/creative/plots#flags) you set time and weather for your plot.
+No. It's also always noon and there's no weather, but you can set the time and weather for your plot yourself with [flags](/creative/plots#flags).
 
 ### May I use Litematica?
 
-Yes, Litematica is allowed in Creative.
+Yes, Litematica is allowed on Creative.
