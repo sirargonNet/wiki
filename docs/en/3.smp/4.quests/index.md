@@ -18,18 +18,16 @@ categories: ['SMP']
 
 ::
 
-Quests are daily and weekly tasks that earn you silver. Every player has the same quests. `/quests` shows them, and each [realm](/smp/realms) has its own row. On top comes the shared [World Quest](/smp/quests/world-quest).
+Quests are daily and weekly tasks that earn you silver. You'll find them under `/quests`, along with the shared [World Quest](/smp/quests/world-quest).
 
 ::page-cards
 ::
 
 ## Quest menu
 
-`/quests` shows your daily and weekly quests. Daily quests are on the left, weekly quests on the right. Each [realm](/smp/realms) has its own row. The colour of the slots shows the realm: green for the Overworld, red for the Nether.
+In `/quests`, your daily quests are on the left and your weekly quests on the right. Each [realm](/smp/realms) has its own row, and the colour of the slots tells you which one it is: green for the Overworld, red for the Nether.
 
-Each quest shows its difficulty, its goal, your progress, the reward and the time until it ends.
-
-After you join SMP, the game loads your quests, milestones and the World Quest in the background. Once they are ready, `/quests` and `/milestones` open immediately with the complete menu. If you open it earlier, the menu waits for the running request. Changes refresh in the background. If loading fails, you get the message **Your quests are currently unavailable.**
+Each quest shows its difficulty, its goal, your progress, the reward and the time left until it ends.
 
 ## How quests are drawn
 
@@ -38,7 +36,7 @@ After you join SMP, the game loads your quests, milestones and the World Quest i
 - Weekly quests arrive every Monday at midnight.
 - Each kind of quest, for example wood or combat, appears only once per day and realm where possible.
 - Two quests never share the same goal.
-- The same daily quest usually returns only after a week. The same weekly quest usually returns only after four weeks.
+- The same daily quest usually comes back only after a week, and the same weekly quest usually only after four weeks.
 
 | Realm                              | Daily quests                | Weekly quests               |
 | :--------------------------------- | :-------------------------- | :-------------------------- |
@@ -48,17 +46,17 @@ After you join SMP, the game loads your quests, milestones and the World Quest i
 
 ## Nether quests
 
-You get the Nether quests on top of your Overworld quests. You see them the first time you actively play in the Nether, for example by mining a block or fighting. Just entering is not enough. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
+You get the Nether quests on top of your Overworld quests. They show up the first time you actively play in the Nether, for example by mining a block or fighting. Walking in isn't enough on its own. You then get the message **You entered the Nether: new Nether quests are now unlocked.** From then on, `/quests` has a row for the Nether.
 
-Your actions count only towards quests in the matching realm. For example, an action in the Nether does not advance an Overworld quest.
+What you do only counts towards quests in the matching realm. Anything you do in the Nether, for example, won't advance an Overworld quest.
 
 ## Target of the day
 
-Some quests pick a target of the day, for example a certain kind of wood. The quest shows it as **Today: …**. How many you need depends on the target.
+Some quests pick a target of the day, for example a certain kind of wood. The quest shows it as **Today: …**, and how many you need depends on the target.
 
 ## Kills
 
-In kill quests, a mob counts for the player who dealt it the most damage. On a tie, it counts for the one who hit last. That way kills count when you fight together too.
+In kill quests, a mob counts for the player who dealt it the most damage, or on a tie, for whoever hit it last. That way kills still count when you fight together.
 
 ## Rewards
 
@@ -67,7 +65,7 @@ In kill quests, a mob counts for the player who dealt it the most damage. On a t
 | daily  | 1,000 Silver | 2,000 Silver |  3,000 Silver |
 | weekly | 3,000 Silver | 6,000 Silver | 12,000 Silver |
 
-Since 6 November 2026, daily quests pay at least these amounts. If you got less for a daily quest from that day on, the game pays the difference later. You then get the message **Daily quest back pay**.
+Since 6 November 2026, daily quests pay at least these amounts. If you got less for a daily quest from that day on, the game pays you the difference later, and you get the message **Daily quest back pay**.
 
 Quests in the Nether pay 25% more:
 
@@ -86,13 +84,13 @@ Some quests ask you to turn in items, for example bread or iron ingots.
 
 ## World Quest
 
-There is also a shared **World Quest**. Open `/quests`. The **World Quest** area sits directly below your personal quests. Everyone helps by donating raw materials. See the [instructions and rewards](/smp/quests/world-quest).
+There is also a shared **World Quest**, where everyone helps by donating raw materials. Its **World Quest** area sits in `/quests`, directly below your personal quests. The [instructions and rewards](/smp/quests/world-quest) explain how donating works.
 
 ## Overworld
 
-Here you find every quest that can appear in the Overworld. 5 of them arrive each day, 3 each week. How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
+Here you find every quest that can appear in the Overworld: 5 of them each day and 3 each week. How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
 
-The number under **Target** is also shown in the menu. For a target of the day, the number depends on what was drawn today.
+The number under **Target** is also shown in the menu. For a target of the day, it depends on what was drawn today.
 
 - Wood only counts from natural logs.
 - Crops only count when ripe.
@@ -202,7 +200,7 @@ For ores, the deepslate variant counts too.
 
 ## Nether
 
-Here you find every quest that can appear in the Nether. 3 of them arrive each day, 3 each week. You get them on top of your [Overworld quests](/smp/quests#overworld). How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
+Here you find every quest that can appear in the Nether: 3 of them each day and 3 each week. You get them on top of your [Overworld quests](/smp/quests#overworld). How they are drawn is explained under [How quests are drawn](/smp/quests#how-quests-are-drawn).
 
 You see Nether quests once you play actively in the Nether for the first time, for example by breaking a block or fighting. They pay 25% more silver than Overworld quests.
 
@@ -287,7 +285,7 @@ Reward: 15,000 Silver.
 
 ## End
 
-In the End, one hard quest can arrive each day and one hard quest each week. You get them on top of your Overworld and Nether quests. You see End quests once you play actively in the End for the first time. They pay 25% more silver than Overworld quests.
+In the End, one hard quest can arrive each day and one hard quest each week, on top of your Overworld and Nether quests. You see End quests once you play actively in the End for the first time, and they pay 25% more silver than Overworld quests.
 
 ### Daily, hard
 
@@ -313,7 +311,11 @@ Reward: 15,000 Silver.
 
 ### Why do I not see any Nether quests?
 
-Nether quests, milestones and the Nether skill tree appear the first time you actively play in the Nether, for example by mining a block or fighting. Just entering or walking around is not enough. Before that, `/quests`, `/milestones` and the skill tree do not show the Nether. Once it is unlocked, the chat tells you once what is new. More under [Realms](/smp/realms).
+Nether quests, milestones and the Nether skill tree appear the first time you actively play in the Nether, for example by mining a block or fighting. Going in or walking around isn't enough on its own. Until then, `/quests`, `/milestones` and the skill tree don't show the Nether. Once it's unlocked, chat tells you once what's new. More under [Realms](/smp/realms).
+
+### Why doesn't the quest menu open straight away?
+
+When you join SMP, the game loads your quests, milestones and the World Quest in the background. Once everything is ready, `/quests` and `/milestones` open immediately with the complete menu. If you open it before that, the menu waits until the running request is done. Changes refresh in the background. If loading fails, you get the message **Your quests are currently unavailable.**
 
 ::navbox{category="SMP"}
 ::
