@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.29.0
 title: 'Cities'
 description: 'Build, manage and rise through eight tiers together, with treasury and Claims 2.0.'
 icon: lucide:castle
