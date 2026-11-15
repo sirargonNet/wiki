@@ -5,7 +5,7 @@ description: 'Verbinde dich, sieh dich in der Lobby um und hol dir Hilfe.'
 icon: lucide:compass
 ---
 
-Neu hier? Dieser Bereich bringt dich ins Spiel: Du verbindest dich, siehst dich in der Lobby um und wählst deinen Spielmodus. Klappt etwas nicht, findest du hier auch Hilfe und die häufigen Fragen.
+Neu hier? Dann bringen dich diese Seiten vom ersten Verbinden bis in deinen ersten Spielmodus, und wenn mal etwas hakt, findest du auch Hilfe.
 
 In vier Schritten bist du startklar:
 
@@ -14,7 +14,7 @@ In vier Schritten bist du startklar:
 3. [Lobby](/getting-started/lobby): Hotbar, NPCs, Warteschlange und was du dort machen kannst.
 4. [Hilfe](/getting-started/help): Guide, Fehler melden und Spieler melden.
 
-Außerdem findest du hier die [Statistiken](/getting-started/statistics) der Website und die [häufigen Fragen](/getting-started/faq).
+Dazu gibt es hier noch die [Statistiken](/getting-started/statistics) der Website und die [häufigen Fragen](/getting-started/faq).
 
 ::page-cards
 ::

@@ -21,7 +21,7 @@ icon: lucide:trees
 
 ::
 
-**SMP Season 10** ist eine Survival-Welt für alle: Such dir deinen Platz, bau dein Zuhause und handle mit deinen Nachbarn. Das SMP ist in der Beta. Zum Beitreten brauchst du eine [Discord-Verknüpfung](/guides/account#discord). Homes und Warps gibt es nicht. Deine Bauten schützt du mit einem [Camp](/smp/camps) oder in einer [Stadt](/smp/cities).
+**SMP Season 10** ist eine Survival-Welt für alle: Such dir deinen Platz, bau dir ein Zuhause und handle mit deinen Nachbarn. Das SMP ist in der Beta.
 
 ## Beitreten
 
@@ -30,36 +30,34 @@ icon: lucide:trees
 3. Nimm das Ressourcenpaket an. Während es lädt, bist du geschützt.
 4. Bestätige die Regeln des SMP.
 
-Löst während dieses Schutzes eine Enderperle aus, die du vorher geworfen hast, zum Beispiel in einer Stasiskammer, landest du nach dem Schutz dort. Es zählt nur die letzte Landung. Sie wartet, solange du online bleibst, egal wie lange der Schutz dauert. Sie verfällt, wenn du ausloggst oder der Landeplatz dann nicht frei ist.
-
-Verlässt du den Discord, bekommst du eine Warnung. Trittst du nicht rechtzeitig wieder bei, kommst du zurück in die Lobby.
+Verlässt du den Discord, bekommst du eine Warnung. Trittst du nicht rechtzeitig wieder bei, schickt dich das Spiel zurück in die Lobby.
 
 ## Grundlagen
 
 - Schwierigkeit: schwer
 - Es gibt keine Homes und keine Warps. Du bist zu Fuß, zu Pferd, mit Boot oder Lore unterwegs.
-- Neu hier? Mit `/rtp` kommst du kostenlos an einen sicheren Platz in der Wildnis, siehe [Starthilfe](/smp#starthilfe).
+- Neu hier? Die [Starthilfe](/smp#starthilfe) `/rtp` bringt dich kostenlos an einen sicheren Platz in der Wildnis.
 - Deine Bauten schützt du mit einem [Camp](/smp/camps) oder in einer [Stadt](/smp/cities).
-- Deine Seitenleiste zeigt dein Silber und dein SMP-Level.
-- Villager handeln nicht, siehe [Villager](/smp/mechanics#villager).
-- Die Welt hat drei Realms: Oberwelt, Nether und End. Der Nether ist offen, siehe [Realms](/smp/realms).
-- Einige Werte weichen von Vanilla ab, zum Beispiel gibt es keine Ortungsleiste und Loren fahren schneller, siehe [Geänderte Mechaniken](/smp/mechanics).
+- In deiner Seitenleiste siehst du dein Silber und dein SMP-Level.
+- [Villager](/smp/mechanics#villager) handeln nicht.
+- Die Welt hat drei [Realms](/smp/realms): Oberwelt, Nether und End. Der Nether ist offen.
+- Einige Werte weichen von Vanilla ab. Es gibt zum Beispiel keine Ortungsleiste, und Loren fahren schneller. Mehr unter [Geänderte Mechaniken](/smp/mechanics).
 
-Lies die [Regeln](/reference/rules) für das SMP. Litematica ist erlaubt, automatisches Platzieren wie Easy Place oder Printer aber verboten, siehe [Mods](/reference/mods).
+Lies dir die [Regeln](/reference/rules) für das SMP durch. Litematica darfst du nutzen, automatisches Platzieren wie Easy Place oder Printer aber nicht. Mehr dazu unter [Mods](/reference/mods).
 
 ## Erste Schritte im SMP
 
-1. Lauf los und such dir einen Platz. Oder nutz `/rtp`, die Starthilfe.
+1. Lauf los und such dir einen Platz, oder nutz die Starthilfe `/rtp`.
 2. Leg mit `/camp` ein Camp an, damit deine Bauten geschützt sind.
 3. Schau in `/quests`, was heute ansteht.
 4. Öffne `/skills` und gib deinen ersten Skillpunkt aus, sobald du ihn hast.
 
 ## Starthilfe
 
-`/rtp` bringt dich an einen sicheren Platz in der Wildnis. Das kostet nichts.
+`/rtp` bringt dich kostenlos an einen sicheren Platz in der Wildnis. Dabei gilt:
 
-- Das geht nur, solange du kein Zuhause hast: kein Camp, keine Stadtmitgliedschaft und keinen eigenen oder gemieteten Plot.
-- Nach 10 Stunden SMP-Spielzeit ist die Starthilfe dauerhaft gesperrt.
+- Das geht nur, solange du noch kein Zuhause hast: kein Camp, keine Stadtmitgliedschaft und keinen eigenen oder gemieteten Plot.
+- Nach 10 Stunden SMP-Spielzeit ist die Starthilfe für immer gesperrt.
 - Du kannst sie höchstens dreimal pro Stunde nutzen.
 - Während und kurz nach einem Kampf geht sie nicht.
 
@@ -81,7 +79,11 @@ Homes und Warps gibt es nicht. Du bist zu Fuß, zu Pferd, mit Boot oder Lore unt
 
 ### Darf ich Litematica nutzen?
 
-Ja. Schematics, Vorschau, Materiallisten und Verifier sind erlaubt. Verboten ist automatisches Platzieren: der Easy-Place-Modus, Printer-Mods und -Add-ons und jeder andere Mod, der Blöcke von selbst setzt. So schaltest du beides aus: [Easy Place und Printer ausschalten](/reference/mods#easy-place-und-printer-ausschalten).
+Ja. Schematics, Vorschau, Materiallisten und Verifier sind erlaubt. Verboten ist automatisches Platzieren: der Easy-Place-Modus, Printer-Mods und -Add-ons und jeder andere Mod, der Blöcke von selbst setzt. Wie du beides ausschaltest, steht unter [Easy Place und Printer ausschalten](/reference/mods#easy-place-und-printer-ausschalten).
+
+### Was passiert mit einer Enderperle, während das Ressourcenpaket lädt?
+
+Solange das Paket lädt, bist du geschützt. Löst in dieser Zeit eine Enderperle aus, die du vorher geworfen hast, zum Beispiel in einer Stasiskammer, landest du nach dem Schutz dort. Es zählt nur die letzte Landung. Sie wartet, solange du online bleibst, ganz gleich, wie lange der Schutz dauert. Loggst du aus oder ist der Landeplatz dann nicht frei, verfällt sie.
 
 ::page-cards
 ::
