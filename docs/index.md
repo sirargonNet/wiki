@@ -1,5 +1,5 @@
 ---
-verified: 0.28.1
+verified: 0.29.0
 title: 'sirargon.net Wiki'
 description: 'Dein Einstieg ins Netzwerk und Hilfe direkt fürs Spiel.'
 icon: lucide:book-open-text
@@ -7,12 +7,15 @@ icon: lucide:book-open-text
 
 Willkommen auf sirargon.net! Hier steht, wie du dich verbindest, wie [SMP](/smp) und [Creative](/creative) laufen und welche Regeln gelten. Du brauchst Minecraft: Java Edition. Kommst du im Spiel nicht weiter, tipp `/guide`.
 
-## Neu in Version 0.28
+## Neu in Version 0.29
 
-- Wer das [Drachenei](/smp/dragon-egg) trägt, leuchtet. Trägt er es durch ein Camp oder eine Stadt, ist dort überall PvP an. Ein platziertes Ei kann sich 6 Stunden lang jeder holen, und jede Stunde erfahren alle grob, wo es steht.
-- Auf Festungen und im Chunk drumherum kann niemand mehr Land claimen. Was das für dein Gebiet heißt, steht bei [Camps](/smp/camps#abstände).
-- Die [Regeln](/reference/rules) des SMP gelten jetzt auch beim Kampf ums Ei und an den Endportalen.
-- `/voice status` und `/voice reconnect` funktionieren wieder, siehe [Voice-Chat](/guides/voice-chat#befehle).
+- Mit `/image` und einem Link bringst du ein Bild aus dem Netz auf bis zu 3 × 3 Karten. Wie das geht, steht unter [Bilder auf Karten](/smp/pictures).
+- [Lichtblöcke](/smp/items#lichtblöcke) kaufst du jetzt im Spawner-Shop oder auf dem Markt. Du setzt sie in Camps und Städten und stellst ihre Helligkeit per Rechtsklick ein.
+- Deine [Spawner](/smp/spawners#menü) kannst du pausieren und ihre gesammelten Drops auf einmal vernichten. Gehen beim Abbauen Drops verloren, warnt dich vorher ein Dialog.
+- [Rüstungsständer](/smp/items#rüstungsständer) stellst du mit Schleichen und Rechtsklick in Pose, und mit einer Schere machst du [Rahmen unsichtbar](/smp/items#unsichtbare-rahmen).
+- Alle Städte aus dem alten System sind kostenlos in die Stufen umgezogen. Was dabei bleibt und was neu startet, steht unter [Claims 2.0](/smp/cities#claims-20).
+- Die [Statistiken](/getting-started/statistics) auf der Website sind neu aufgebaut, mit Tabs je Modus, Clan-Ansicht, Suche, neuen Profilen und der Liste **Gerade eben**.
+- Das Team kann in einer Lobby den [Chaos-Modus](/getting-started/lobby#chaos-modus) starten.
 
 Was sich in jeder Version geändert hat, listet dir `/changelog` im Spiel auf.
 

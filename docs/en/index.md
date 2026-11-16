@@ -1,5 +1,5 @@
 ---
-verified: 0.28.1
+verified: 0.29.0
 title: 'sirargon.net Wiki'
 description: 'Your first steps on the network and help for playing.'
 icon: lucide:book-open-text
@@ -7,12 +7,15 @@ icon: lucide:book-open-text
 
 Welcome to sirargon.net! This is where you learn how to connect, how [SMP](/smp) and [Creative](/creative) work and what the rules are. You need Minecraft: Java Edition. If you get stuck in game, type `/guide`.
 
-## New in version 0.28
+## New in version 0.29
 
-- Whoever carries the [dragon egg](/smp/dragon-egg) glows, and while they carry it through a camp or city, PvP is on all over it. Anyone can take a placed egg for 6 hours, and every hour everyone is told roughly where it is.
-- Nobody can claim land on a stronghold or in the chunk around it anymore. See [Camps](/smp/camps#distances) for what that means for your land.
-- The SMP [rules](/reference/rules) now also apply to egg fights and End portals.
-- `/voice status` and `/voice reconnect` work again, see [Voice chat](/guides/voice-chat#commands).
+- With `/image` and a link you put a picture from the web on up to 3 × 3 maps. [Pictures on maps](/smp/pictures) shows how.
+- You can now buy [light blocks](/smp/items#light-blocks) in the spawner shop or on the market. Place them in camps and cities and set their brightness with a right-click.
+- You can pause your [spawners](/smp/spawners#menu) and destroy all their collected drops at once. If breaking a spawner would lose drops, a dialog warns you first.
+- Sneak and right-click an [armour stand](/smp/items#armour-stands) to pose it, and use shears to make [item frames invisible](/smp/items#invisible-item-frames).
+- Every city from the old system has moved into the tiers for free. [Claims 2.0](/smp/cities#claims-20) explains what stays and what starts fresh.
+- The [statistics](/getting-started/statistics) on the website have been rebuilt, with tabs per mode, a clan view, search, new profiles and the **Just now** list.
+- The team can start a [chaos mode](/getting-started/lobby#chaos-mode) in a lobby.
 
 In game, `/changelog` lists what changed in each version.
 
