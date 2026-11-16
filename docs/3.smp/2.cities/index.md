@@ -1,5 +1,5 @@
 ---
-verified: 0.26.0
+verified: 0.29.0
 title: 'Städte'
 description: 'Gemeinsam bauen, verwalten und über acht Stufen wachsen, mit Stadtkasse und Claims 2.0.'
 icon: lucide:castle
@@ -29,7 +29,7 @@ Netzwerk-Level 5
 Eine Stadt ist ein gemeinsames Gebiet aus ganzen Chunks in der Oberwelt. Ihr verwaltet sie zusammen, vergebt Ränge, haltet Wahlen ab und könnt Plots verkaufen oder vermieten. Mit eurer Spielzeit steigt die Stadt über acht [Stufen](/smp/cities/tiers) auf, von der Lichtung bis zur Metropole.
 
 ::callout{type="info" title="Claims 2.0"}
-Seit Version 0.24.0 wachsen Städte über Stufen statt über gekaufte Kapazität, und Upkeep gibt es keinen mehr. Hast du schon vorher eine Stadt gegründet, lies [Claims 2.0](/smp/cities#claims-20).
+Seit Version 0.24.0 wachsen Städte über Stufen statt über gekaufte Kapazität, und Upkeep gibt es keinen mehr. Ältere Städte sind inzwischen auch alle im Stufensystem. Was dabei mit ihnen passiert ist, steht unter [Claims 2.0](/smp/cities#claims-20).
 ::
 
 ## Stadt gründen
@@ -112,9 +112,9 @@ Jede Stadt hat eine Kasse. Wer das Recht dazu hat, zahlt Silber ein oder hebt es
 | weiterer Außenposten-Chunk, Oberwelt |       20.000 Silber |
 | weiterer Außenposten-Chunk, Nether   |       24.000 Silber |
 
-Diese Preise gelten für Städte im Stufensystem. Alte Städte, die nicht gewechselt haben, zahlen die alten Preise aus [Claims 2.0](#claims-20). Bezahlt wird immer direkt beim Claimen. Was Außenposten kosten, steht unter [Außenposten](/smp/cities/outposts). Die Gründung bezahlt der Gründer selbst, siehe [Stadt gründen](/smp/cities#stadt-gründen).
+Bezahlt wird immer direkt beim Claimen. Was Außenposten kosten, steht unter [Außenposten](/smp/cities/outposts). Die Gründung bezahlt der Gründer selbst, siehe [Stadt gründen](/smp/cities#stadt-gründen).
 
-Städte im Stufensystem zahlen keinen Upkeep. Ihre Stufe steigt durch Spielzeit und [Stufenprojekte](/smp/cities/tiers), nicht durch Silber.
+Städte zahlen keinen Upkeep. Ihre Stufe steigt durch Spielzeit und [Stufenprojekte](/smp/cities/tiers), nicht durch Silber.
 
 ### Kassenverlauf
 
@@ -132,10 +132,6 @@ Verkaufte Plots bleiben für ihre Besitzer geschützt, auch wenn die Stadt einge
 
 Das Oberhaupt kann die Stadt auflösen.
 
-### Alte Städte
-
-Bei Städten, die noch nicht ins Stufensystem gewechselt haben, ist der Upkeep ausgesetzt. Was sonst für sie gilt, steht unter [Claims 2.0](/smp/cities#claims-20).
-
 ## Eingefrorene Städte
 
 Ist längere Zeit kein Mitglied aktiv, friert die Stadt ein. Vorher bekommen Mitglieder mit verknüpftem Discord zwei Warnungen per Direktnachricht, in denen das Datum steht.
@@ -145,7 +141,7 @@ Ist längere Zeit kein Mitglied aktiv, friert die Stadt ein. Vorher bekommen Mit
 - Sobald ein Mitglied wieder aktiv ist, taut die Stadt kostenlos auf.
 
 ::callout{type="info"}
-Im Moment bleiben verlassene Städte im Stufensystem eingefroren und geschützt. Sie werden nicht zur Ruine, verfallen nicht und lassen sich nicht übernehmen. Das kann sich noch ändern.
+Im Moment bleiben verlassene Städte eingefroren und geschützt. Sie werden nicht zur Ruine, verfallen nicht und lassen sich nicht übernehmen. Das kann sich noch ändern.
 ::
 
 ## Feststecken
@@ -164,109 +160,20 @@ Steckst du auf fremdem Land fest, hilft dir `/unstuck`:
 
 ## Claims 2.0
 
-::callout{type="info" title="Claims 2.0 für bestehende Städte"}
-Mit Version 0.24.0 kam **Claims 2.0**. Seitdem wachsen Städte über [Stufen](/smp/cities/tiers) statt über gekaufte Kapazität und Upkeep. Neue Städte starten direkt im Stufensystem. Bestehende Städte behalten ihre alten Regeln, bis ihr Oberhaupt ins Stufensystem wechselt.
-::
+Mit Version 0.24.0 kam **Claims 2.0**. Seitdem wachsen Städte über [Stufen](/smp/cities/tiers) statt über gekaufte Kapazität und Upkeep. Ältere Städte durften zuerst selbst entscheiden, ob sie wechseln. Das alte System gibt es inzwischen nicht mehr, und jede Stadt, die bis dahin nicht gewechselt hatte, ist von selbst ins Stufensystem gekommen.
 
-::callout{type="info" title="Claims 1.x und Claims 2.0 im Vergleich"}
+Dieser Wechsel war kostenlos. Die Stadtkasse hat nichts bezahlt und nichts zurückbekommen, auch wenn sie für den alten Aufpreis zu wenig Silber gehabt hätte. Offene Rückstände sind weggefallen.
 
-| Thema            | Claims 1.x (alte Städte)                                                | Claims 2.0 (Stufensystem)                                           |
-| :--------------- | :---------------------------------------------------------------------- | :------------------------------------------------------------------ |
-| Wachstum         | Chunk-Kapazität kaufen, 10.000 Silber für 4 Chunks                      | 8 Stufen durch Stadtstunden und Stufenprojekte                      |
-| Chunk-Grenze     | Startgröße plus Kapazität, begrenzt durch die Bewohnerzahl              | fest pro Stufe, 24 bis 640 Chunks                                   |
-| Neuer Chunk      | aus der gekauften Kapazität                                             | 16.000 Silber beim Claimen                                          |
-| Chunks freigeben | geht nicht                                                              | geht, ohne Erstattung                                               |
-| Außenposten      | alte Preise, höchstens 4 Chunks                                         | einzeln gekauft, Anzahl und Größe nach Stufe                        |
-| Upkeep           | ausgesetzt                                                              | gibt es nicht                                                       |
-| Ränge            | Oberhaupt, Assistent, Ehrenbürger, Bürger, Besucher; höchstens 10 Ränge | Oberhaupt, Ratsmitglied, Bewohner, Gast; dazu 5 bis 14 eigene Ränge |
-| Stadtrat         | Oberhaupt direkt gewählt                                                | Rat mit 3 bis 9 Sitzen, der den Vorsitz wählt                       |
-| Herrschaft       | Stadtherr, kein Aufstand                                                | Herrscher, Aufstand und Nachfolge bei Inaktivität                   |
-| Inaktive Stadt   | alte Ruinen bleiben Ruinen                                              | eingefroren und geschützt, ohne Ruine oder Übernahme                |
+Eure Stadt ist auf der Stufe gelandet, die sich ihre heutigen Mitglieder mit ihrer aktiven Spielzeit im SMP verdient haben, seit sie in der Stadt sind. Für die Metropole braucht es aber auch hier 15 Mitglieder. Ab dem Wechsel sammelt ihr neue Stadtstunden.
 
-Für **alle** Städte gibt es schon jetzt: feine [Rechte](/smp/cities/rights), Stadtsperren, Umwelt- und Cosmetics-Einstellungen, Rechte für einzelne Spieler, Mitverwalter, die Stadtzone, den Kassenverlauf und Meldungen, die den Grund nennen.
-::
+Euer ganzes Land ist geblieben, auch das über der Grenze eurer Stufe. Liegt ihr darüber, könnt ihr erst wieder claimen, wenn ihr unter die Grenze kommt oder aufsteigt. Ebenso geblieben sind alle Plots mit ihren Kauf- und Mietverträgen und Plot-Mitbewohnern, die Stadtkasse und die Stadtform.
 
-::callout{type="info" title="Was sich für alte Städte sofort geändert hat"}
+Neu gestartet sind dagegen die Ränge:
 
-- **Upkeep:** Der Upkeep ist ausgesetzt, und offene Rückstände wurden erlassen. Eingefrorene Städte im Rückstand sind wieder aktiv, ihre Mieten laufen wieder.
-- **Ruinen:** Städte, die schon eine Ruine waren, bleiben eine Ruine. Wer eine Ruine für 1.500 Silber übernimmt, bekommt eine Stadt im Stufensystem auf Stufe 1, und das Land bleibt erhalten.
-- **Nationen und Allianzen** sind pausiert, siehe [Nationen und Allianzen](/smp/cities/nations). Ihre Daten und ihre Kasse bleiben erhalten.
-- **Plots und Camps** haben ihre bisherigen Rechte behalten. Diese stehen jetzt als feste Einstellungen in den neuen Rechtegruppen.
-  ::
-
-::callout{type="info" title="Was alte Städte ohne Wechsel behalten"}
-Wechselt ihr nicht, bleibt alles wie bisher:
-
-- **Chunk-Kapazität kaufen:** 2.500 Silber je Chunk, also 10.000 Silber pro Erweiterung um 4 Chunks
-- Es gilt die kleinere von zwei Grenzen: die gekaufte Kapazität oder die Startgröße plus 4 Chunks je 2 Bewohner.
-- die alten Ränge mit höchstens zehn Stadt-Rängen
-- die alten Regeln für Außenposten: ein neuer Außenposten kostet 25.000 Silber
-
-| Bewohner | höchstens Chunks (Start 25) | höchstens Chunks (Start 16) |
-| -------- | --------------------------- | --------------------------- |
-| 1        | 25                          | 16                          |
-| 2–3      | 29                          | 20                          |
-| 4–5      | 33                          | 24                          |
-| 10–11    | 45                          | 36                          |
-| 20–21    | 65                          | 56                          |
-
-Stufen, Stufenprojekte, das Freigeben einzelner Chunks, Ratssitze, Aufstand und Nachfolge gibt es nur im Stufensystem. Versuchst du es in einer alten Stadt, sagt das Spiel: „Diese Stadt muss zuerst ins Stufensystem wechseln.“
-::
-
-::callout{type="info" title="Ins Stufensystem wechseln"}
-Der Wechsel ist freiwillig und hat keine Frist, lässt sich aber nicht rückgängig machen.
-
-1. Öffne als Oberhaupt `/city`, dann **Verwaltung** und **Wechseln**.
-2. Prüfe die Vorschau:
-   - „Zielstufe {Stufe}: {Name}“ und eure Stadtstunden
-   - „Eigene Ränge und Stadtrechte werden zurückgesetzt.“
-   - „Land und Plot-Verträge bleiben unverändert.“
-   - den Preis oder „Erstattung in die Stadtkasse: {Betrag} Silber.“
-3. Bestätige.
-
-Wechseln darf nur das Oberhaupt selbst, keine kommissarische Leitung. Außerdem darf die Stadt nicht eingefroren sein.
-
-**Auf welcher Stufe ihr landet**
-
-Die Zielstufe richtet sich nach der aktiven Spielzeit, die eure heutigen Mitglieder im SMP gesammelt haben, seit sie in der Stadt sind. Ihr landet direkt auf dieser Stufe und braucht die Projekte der Stufen davor nicht. Für die Metropole braucht ihr aber auch hier 15 Mitglieder. Ab dem Wechsel sammelt ihr dann neue Stadtstunden.
-
-**Was der Wechsel kostet**
-
-Das Spiel vergleicht, was euer Land im Stufensystem wert ist, mit dem, was eure Stadtkasse schon bezahlt hat.
-
-- **Wert des Landes:** Jeder Chunk über 16 kostet 16.000 Silber. Außenposten-Chunks zählen mit 20.000 Silber in der Oberwelt und 24.000 Silber im Nether.
-- **Angerechnet** wird alles, was die Stadtkasse je für Erweiterungen und Außenposten bezahlt hat.
-- Ist der Wert höher, zahlt die Stadtkasse den Unterschied. Reicht das Silber nicht, meldet das Spiel: „Der Stadtkasse fehlen {Betrag} Silber für den Wechsel.“
-- Habt ihr mehr bezahlt, bekommt die Stadtkasse den Überschuss zurück.
-
-Im Kassenverlauf erscheint die Buchung als „Wechsel ins Stadtsystem“.
-
-**Was bleibt und was neu startet**
-
-Das bleibt:
-
-- euer ganzes Land, auch wenn es über der Grenze eurer Stufe liegt. Claimen könnt ihr dann erst wieder, wenn ihr unter der Grenze seid oder aufsteigt.
-- alle Plots, Kauf- und Mietverträge und Plot-Mitbewohner
-- die Stadtkasse und die Stadtform
-
-Das startet neu:
-
-- Alle eigenen Ränge werden gelöscht.
-- Die festen Ränge Oberhaupt, Bewohner und Gast bekommen ihre Standardrechte. Mit Stadtrat kommt das Ratsmitglied dazu.
-- Alle Mitglieder außer dem Oberhaupt werden Bewohner.
-- Rechte, die Nationen oder Allianzen in der Stadt hatten, werden entfernt.
-- Laufende Stadtwahlen werden beendet.
-
-Eure eigenen Ränge legt ihr danach neu an, wie unter [Regierung & Ränge](/smp/cities/government) beschrieben.
-::
-
-::callout{type="info" title="Checkliste vor dem Wechsel"}
-
-- [ ] Vorschau geprüft: Zielstufe und Preis
-- [ ] genug Silber in der Stadtkasse
-- [ ] Mitglieder vorgewarnt, dass Ränge neu starten
-- [ ] eigene Ränge und ihre Rechte notiert, um sie neu anzulegen
-      ::
+- Eure eigenen Ränge sind gelöscht. Legt sie unter [Regierung & Ränge](/smp/cities/government) neu an.
+- Oberhaupt, Bewohner und Gast haben wieder ihre Standardrechte, im Stadtrat auch das Ratsmitglied.
+- Alle Mitglieder außer dem Oberhaupt sind jetzt Bewohner.
+- Laufende Stadtwahlen wurden beendet, außer in Städten unter kommissarischer Leitung.
 
 ## Befehle
 
@@ -280,6 +187,16 @@ Eure eigenen Ränge legt ihr danach neu an, wie unter [Regierung & Ränge](/smp/
 - `/city off`: Grenzen ausblenden
 - `/city retry`: Änderung mit unklarem Ergebnis wiederholen
 - `/unstuck`: dich von fremdem Land befreien
+
+## Häufige Fragen
+
+### Warum ist meine alte Stadt nach dem Wechsel eingefroren?
+
+War sie nach den alten Regeln schon eingefroren oder eine Ruine, oder hat sie eine kommissarische Leitung geführt, ist sie eingefroren ins Stufensystem gekommen. Sie bleibt dann [eingefroren und geschützt](#eingefrorene-städte) wie jede verlassene Stadt. Sobald ein Mitglied wieder aktiv ist, taut sie kostenlos auf.
+
+### Kann ich eine Ruine noch übernehmen?
+
+Nein. Eine Ruine hat keine Mitglieder mehr, deshalb bleibt sie eingefroren und geschützt.
 
 ::page-cards
 ::
